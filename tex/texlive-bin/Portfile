@@ -15,8 +15,7 @@ PortGroup       cxx11 1.1
 PortGroup       muniversal 1.0
 
 name            texlive-bin
-version         2018.47642
-revision        8
+version         20190330.50665
 
 categories      tex
 maintainers     {dports @drkp}
@@ -50,14 +49,14 @@ worksrcdir      ${distname}
 set tlpkgdistname   tlpkg-TeXLive-${version}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-2018.47642.tar.xz \
-                    rmd160  6ebb4f06ea254ef4c49be4052659144d376315f3 \
-                    sha256  d1afa118c02ddf13112b9dd7b46b014d802b544128c50ea5dc88a85ace148725 \
-                    size    46433032 \
-                    tlpkg-TeXLive-2018.47642.tar.xz \
-                    rmd160  c14c04444af0ee2ed739c7c6776b6afac39cf766 \
-                    sha256  54505501198b171af862ca17c2da4388242b1a1b6e724aabb048ce5125517c8f \
-                    size    103320
+checksums           texlive-source-20190330.50665.tar.xz \
+                    rmd160  9ff49a8bcbc0c992081591e8784b2e89352ed06a \
+                    sha256  9b7e8968dc5c0b0bfac06767c83a3f7450e63a23bad8721987589fb58f6c32a8 \
+                    size    50952564 \
+                    tlpkg-TeXLive-20190330.50665.tar.xz \
+                    rmd160  23437cd83722592117d9dca7fff124677c5e6fd7 \
+                    sha256  982a632ff0fe7c1b144d6b35e7059bf6fd12a264602d9f9e9d94c5281a8fbb68 \
+                    size    105708
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -82,9 +81,6 @@ depends_run     port:ghostscript
 depends_build-append \
                 path:bin/perl:perl5 \
                 port:pkgconfig
-
-# security patches
-patchfiles-append  patch-r48697.diff
 
 # patches related to changes in install paths
 patchfiles-append  patch-texk_chktex_Makefile.in.diff \
