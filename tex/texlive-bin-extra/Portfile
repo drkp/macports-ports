@@ -4,8 +4,8 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bin-extra
-version             47446
-revision            1
+version             50627
+revision            0
 
 categories          tex
 maintainers         {dports @drkp}
@@ -13,28 +13,27 @@ license             Copyleft Permissive
 description         TeX Live: TeX auxiliary programs
 long_description    Various useful, but non-essential, support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and the TeX Works Editor.
 
-checksums           texlive-bin-extra-47446-run.tar.xz \
-                    rmd160  465d16566d0bb2545117d761e419cd72c9591767 \
-                    sha256  5834c7734dc4985b3c821757af02b8a6a0cd7e487ed1a303f217a434d0070866 \
-                    texlive-bin-extra-47446-doc.tar.xz \
-                    rmd160  0a9cd67461e8b3fea14467f22a7ae44518d3f16f \
-                    sha256  c1b813f6dfab8fd9700ca3f97949d1221226c30d1ba282917080732ea2955a40 \
-                    texlive-bin-extra-47446-src.tar.xz \
-                    rmd160  d1fdf8dc75551a3e9c4ca9e74eaaa94692fe213a \
-                    sha256  872036e0009c46de9d1c24da73d0eba42dd6f1f35e1aee29bd4afbf7f063f8df
+checksums           texlive-bin-extra-50627-run.tar.xz \
+                    rmd160  e40d26bce54a204ce2ee38a36731cd3f3c88f358 \
+                    sha256  b7b2df0572c11b57fa4a3149e6be3b046f93ae1235978cc7bce7740aa9d41da1 \
+                    texlive-bin-extra-50627-doc.tar.xz \
+                    rmd160  d2c0b24104f86f0ed86c94a81a1e11e85a225396 \
+                    sha256  b3e059bc0c3dcabf42c6bb00f35aea62bc0481b63baf8bf7d61826cfd192e59d \
+                    texlive-bin-extra-50627-src.tar.xz \
+                    rmd160  297b494673c60bd2d5f6101169e8be28ba729bd3 \
+                    sha256  8a98e17163b63aa149fe5b358de25592aaf292af1527dcf30fd49a31eadb168a
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
     {0 mflua mflua-nowin - {mf.ini}}
 
-texlive.binaries    a2ping a5toa4 adhocfilelist arara arlatex bibtex8 bibtexu bundledoc checklistings chktex chkweb ctan-o-mat ctangle ctanify ctanupload ctie cweave de-macro depythontex deweb dt2dv dtxgen dv2dt dviasm dvibook dviconcat dvicopy dvidvi dvihp dviinfox dvilj dvilj2p dvilj4 dvilj4l dvilj6 dvipos dviselect dvitodvi dvitype e2pall findhyph fragmaster installfont-tl ketcindy lacheck latex-git-log latex-papersize latex2man latex2nemeth latexdef latexfileversion latexindent latexpand listings-ext.sh ltxfileinfo ltximg make4ht match_parens mflua mflua-nowin mfluajit mfluajit-nowin mkjobtexmf patgen pdfatfi pdfbook2 pdfclose pdfcrop pdflatexpicscale pdfopen pdftosrc pdfxup pfarrei pkfix pkfix-helper pooltype purifyeps pythontex rpdfcrop srcredact sty2dtx synctex tangle tex4ebook texcount texdef texdiff texdirflatten texdoc texdoctk texfot texliveonfly texloganalyser texosquery texosquery-jre5 texosquery-jre8 tie tlcockpit tlshell tpic2pdftex typeoutfileinfo weave
+texlive.binaries    a2ping a5toa4 adhocfilelist arara arlatex bibtex8 bibtexu bundledoc checklistings chkdvifont chktex chkweb cllualatex cluttex clxelatex ctan-o-mat ctanbib ctangle ctanify ctanupload ctie ctwill ctwill-refsort ctwill-twinx cweave de-macro depythontex deweb dt2dv dtxgen dv2dt dviasm dvibook dviconcat dvicopy dvidvi dvihp dviinfox dvilj dvilj2p dvilj4 dvilj4l dvilj6 dvipos dviselect dvispc dvisvgm dvitodvi dvitype e2pall findhyph fragmaster installfont-tl ketcindy lacheck latex-git-log latex-papersize latex2man latex2nemeth latexdef latexfileversion latexindent latexpand listings-ext.sh ltxfileinfo ltximg make4ht match_parens mflua mflua-nowin mfluajit mfluajit-nowin mkjobtexmf patgen pdfatfi pdfbook2 pdfclose pdfcrop pdflatexpicscale pdfopen pdftex-quiet pdftosrc pdfxup pfarrei pkfix pkfix-helper pooltype purifyeps pythontex rpdfcrop srcredact sty2dtx synctex tangle tex4ebook texcount texdef texdiff texdirflatten texdoc texdoctk texfot texliveonfly texloganalyser texosquery texosquery-jre5 texosquery-jre8 tie tlcockpit tpic2pdftex typeoutfileinfo weave xindex
 
 depends_run         port:latexmk \
                     port:detex \
                     port:latexdiff \
                     port:pdfjam \
-                    port:dvipng \
-                    port:dvisvgm
+                    port:dvipng
 
 texlive.texmfport

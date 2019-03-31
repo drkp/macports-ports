@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
-version             47441
+version             50602
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Czech/Slovak
 long_description    Support for Czech/Slovak.
 
-checksums           texlive-lang-czechslovak-47441-run.tar.xz \
-                    rmd160  d51aa179456def724803193d0fcedf14aec4b150 \
-                    sha256  ad5bfaa8beab658f17ebbd7e9c6fa367683415247730ace1d32fc0a644a1de7f \
-                    texlive-lang-czechslovak-47441-doc.tar.xz \
-                    rmd160  a18c89febf8f825a16463580223356cc64b58efc \
-                    sha256  d635a415f5403c4403e5c9cc0ece515d0bf7f92306bc2188b2f62476063181a3 \
-                    texlive-lang-czechslovak-47441-src.tar.xz \
-                    rmd160  1c4ffbce79bbc3b3884c6b14cf08b42e8cd86d08 \
-                    sha256  7c0b211c13673e31027a14e70d2c5e42c14f8198e3727a60e31ea98caa6dca8a
+checksums           texlive-lang-czechslovak-50602-run.tar.xz \
+                    rmd160  ffa87fc78a9a6413afc7a960e7a946d9b000b203 \
+                    sha256  1913072702c9fac83b6d2343066d80b45ecbaf7dfbf182131a32e207cecf791c \
+                    texlive-lang-czechslovak-50602-doc.tar.xz \
+                    rmd160  6feb4fdfbe83a8b9aa5c606a6979e7572f053277 \
+                    sha256  2940f822ea29245df6ca156baf8e66d36d4319c7015b7cc1718a5eaf17ad946f \
+                    texlive-lang-czechslovak-50602-src.tar.xz \
+                    rmd160  65b171da068c03cd3cf2760306a595da0898afff \
+                    sha256  5db698d04d4c89888767be10d7b44d3cbf587429b5defd199eec1a9586a6cde9
 
 depends_lib         port:texlive-basic port:texlive-latex
 
@@ -30,6 +30,7 @@ texlive.formats      \
     {1 pdfcslatex pdftex - {-etex cslatex.ini}} \
     {1 csplain pdftex - {-etex -enc csplain-utf8.ini}} \
     {1 pdfcsplain pdftex - {-etex -enc csplain-utf8.ini}} \
+    {1 luacsplain luatex - {-etex csplain.ini}} \
     {1 pdfcsplain xetex - {-etex csplain.ini}} \
     {1 pdfcsplain luatex - {-etex csplain.ini}}
 
@@ -41,7 +42,7 @@ texlive.maps      \
     {Map cs-charter.map} \
     {Map csfonts.map}
 
-texlive.binaries    cslatex csplain pdfcslatex pdfcsplain vlna
+texlive.binaries    cslatex csplain luacsplain pdfcslatex pdfcsplain vlna
 
 
 texlive.texmfport

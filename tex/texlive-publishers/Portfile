@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-publishers
-version             47411
+version             50644
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Publisher styles, theses, etc.
 long_description    Publisher styles, theses, etc.
 
-checksums           texlive-publishers-47411-run.tar.xz \
-                    rmd160  2b10ed7bb0c05c959dfe24074234df46dfcbfb7a \
-                    sha256  c02978a2b9b66a2b95fadc3c0b2217c383a4f5814d60066a49a1e1e5f1c36344 \
-                    texlive-publishers-47411-doc.tar.xz \
-                    rmd160  068aeb31acdc76994d3a332a05c67b08ec32f17b \
-                    sha256  7c1d86601a7edca8c633be93c427c1b1c0b091b7c7a8ffcefd33922bb24fb046 \
-                    texlive-publishers-47411-src.tar.xz \
-                    rmd160  501d75709ebe084c55a697c0b1a722143414c852 \
-                    sha256  707d69f04b9bcd8c7bb590f9c2d6d3befcae7107eacfc62a907001a24d42b8d6
+checksums           texlive-publishers-50644-run.tar.xz \
+                    rmd160  f04190f02d28a11f3494f91bb8e0af583c8e068d \
+                    sha256  4bcfeb60575437167c5f8f756d0f220326edf365d82113a59757c3ae07b7d596 \
+                    texlive-publishers-50644-doc.tar.xz \
+                    rmd160  dcd0660ea1056011ca97095979fd28f0ce40b6d5 \
+                    sha256  f4c537a0e0f753fe9645c1d18d91d3ef7f74943d6549a3de57445fcbca3c16d3 \
+                    texlive-publishers-50644-src.tar.xz \
+                    rmd160  e99d27809a4fdc0b212b1f6016e9c1e1f80b8d3b \
+                    sha256  ba84920c5b970139a758d8f98625ff0309887aed10ba9f83ff9d25127e87f8a5
 
 depends_lib         port:texlive-latex
 

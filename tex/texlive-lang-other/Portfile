@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             47375
+version             50602
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Other languages
 long_description    Support for languages not otherwise listed, including Indic, Thai, Vietnamese, Hebrew, Indonesian, African languages, and plenty more.  The split is made simply on the basis of the size of the support, to keep both collection sizes and the number of collections reasonable.
 
-checksums           texlive-lang-other-47375-run.tar.xz \
-                    rmd160  1d7bede381b4159577a793ddedf068766fb356e0 \
-                    sha256  3846053316ebebe3ba2d01c7bd17d40874ad19bd35fe09d892a1a3f18439ec0c \
-                    texlive-lang-other-47375-doc.tar.xz \
-                    rmd160  8388ae69b201adb6ac2e3a3bdce77856a47e6b3f \
-                    sha256  0602bec34412d00579efe22259659339168fc8157beb6b3e61be72d63258addb \
-                    texlive-lang-other-47375-src.tar.xz \
-                    rmd160  fc2fa8005af0c2dd5e447d3b6e5f00e8b1e40e78 \
-                    sha256  7920e1a053ea0817ff4d7db74a9c75d4a3357943b28dfa16a0e81dbe27843f27
+checksums           texlive-lang-other-50602-run.tar.xz \
+                    rmd160  83821df520362c5f6cf4eacf4225489cd354a8ed \
+                    sha256  cd35ad83ee1a55127f25b7d27ee786aae19c321033e0be68042b037d2e489f2b \
+                    texlive-lang-other-50602-doc.tar.xz \
+                    rmd160  094089ee878773f0186e24f796838aa59a1ef21c \
+                    sha256  dd7c703528c1aadf8969798e1d8163319772a4be6e9ab1391e203ef2b8c0570f \
+                    texlive-lang-other-50602-src.tar.xz \
+                    rmd160  b7f130d8fd4baa1df173e91d659c39f99ce35887 \
+                    sha256  3568cf51b1a2b9f70ea4b6bc5af2889ed307e74c85930dad4a52f78bd0cb4943
 
 depends_lib         port:texlive-basic
 
@@ -41,6 +41,7 @@ texlive.languages      \
     {marathi loadhyph-mr.tex 1 1 {} {hyph-mr.pat.txt} {} {} } \
     {oriya loadhyph-or.tex 1 1 {} {hyph-or.pat.txt} {} {} } \
     {panjabi loadhyph-pa.tex 1 1 {} {hyph-pa.pat.txt} {} {} } \
+    {pali loadhyph-pi.tex 1 1 {} {hyph-pi.pat.txt} {} {} } \
     {tamil loadhyph-ta.tex 1 1 {} {hyph-ta.pat.txt} {} {} } \
     {telugu loadhyph-te.tex 1 1 {} {hyph-te.pat.txt} {} {} } \
     {indonesian loadhyph-id.tex 2 2 {} {hyph-id.pat.txt} {hyph-id.hyp.txt} {} } \

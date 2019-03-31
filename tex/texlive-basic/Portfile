@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-basic
-version             47434
+version             50639
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Essential programs and files
 long_description    These files are regarded as basic for any TeX system, covering plain TeX macros, Computer Modern fonts, and configuration for common drivers\; no LaTeX.
 
-checksums           texlive-basic-47434-run.tar.xz \
-                    rmd160  db9269a12e1efcf9606b92cedb1eb675bc3c2017 \
-                    sha256  24e7db599421c175f31526370e3c98886d422eeb305d774b3ab221783d95e6e4 \
-                    texlive-basic-47434-doc.tar.xz \
-                    rmd160  432242993facb78e2286f7eef10e70855d69f382 \
-                    sha256  c860614acadbe0409d9a7000de6d7604d30cb098a09112b070feb23370583cab \
-                    texlive-basic-47434-src.tar.xz \
-                    rmd160  908d10d2a0e750eff9e02b917be85c9d8d055259 \
-                    sha256  6ec3d03346618eca9e50ce078108ae65380eedb5f7270064804823cb0da50791
+checksums           texlive-basic-50639-run.tar.xz \
+                    rmd160  997749220877b7f732debe822325ecbf8df6af3a \
+                    sha256  7035f88335fe2900a33d38179e438d3a7e59fa1ca8a8555c6c2bfc848f83e623 \
+                    texlive-basic-50639-doc.tar.xz \
+                    rmd160  c8d692d4b95b2dcfab7aefe4fa8513882ce29181 \
+                    sha256  1caf5a6aff5034b3673f4f8918a97b3163ef707a34fdd61062d604d3bb718bdb \
+                    texlive-basic-50639-src.tar.xz \
+                    rmd160  400f83067a0bce155b3fc099ce60697c340c6677 \
+                    sha256  05d8a2a6333915e5d445b9dd49d879978bff45c25318e6bed1f8bb7d8a8eebd0
 
 texlive.formats      \
     {1 luatex luatex language.def,language.dat.lua {luatex.ini}} \
@@ -44,7 +44,7 @@ texlive.maps      \
     {Map dummy-space.map} \
     {Map mathpple.map}
 
-texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dviluatex dvipdfm dvipdfmx dvipdft dvips dvired ebb etex extractbb fmtutil fmtutil-sys fmtutil-user gftodvi gftopk gftype gsftopk inimf initex kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luajittex luatex luatex53 makeindex mf mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdfetex pdftex pktogf pktype simpdftex tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texlua53 texluac texluajit texluajitc updmap updmap-sys updmap-user xdvi
+texlive.binaries    afm2tfm allcm allec allneeded bibtex dvi2fax dviluatex dvipdfm dvipdfmx dvipdft dvips dvired ebb etex extractbb fmtutil fmtutil-sys fmtutil-user gftodvi gftopk gftype gsftopk inimf initex kpseaccess kpsepath kpsereadlink kpsestat kpsetool kpsewhere kpsewhich kpsexpand luajittex luatex makeindex mf mf-nowin mft mkindex mkocp mkofm mktexfmt mktexlsr mktexmf mktexpk mktextfm pdfetex pdftex pktogf pktype simpdftex tex texconfig texconfig-dialog texconfig-sys texhash texlinks texlua texluac texluajit texluajitc tlshell updmap updmap-sys updmap-user xdvi xdvipdfmx
 
 texlive.exclude     texmf-dist/web2c/fmtutil.cnf \
                     texmf-dist/web2c/texmf.cnf \
