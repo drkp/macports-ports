@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex-recommended
-version             50620
+version             50818
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX recommended packages
 long_description    A collection of recommended add-on packages for LaTeX which have widespread use.
 
-checksums           texlive-latex-recommended-50620-run.tar.xz \
-                    rmd160  1eac06207ae17164b9a719ea683862410a7dec0f \
-                    sha256  f470852eb392f887ecfcfb0fcdc702e431ce319ca0308ea4a9820fcb5fa392ea \
-                    texlive-latex-recommended-50620-doc.tar.xz \
-                    rmd160  b6704d627177fe88d8908502679e05c4a7af3585 \
-                    sha256  0ae889276af2af1e8ecf5579c3445c31a6d2d7a351f6317111d6c673f6cafdbb \
-                    texlive-latex-recommended-50620-src.tar.xz \
-                    rmd160  e9bc37788cb6d91ffa26107cbe2dee3a5ebb38b8 \
-                    sha256  f2d33a52dd9decf3c0cef633f4f0f1a870865b7a298208cfd3c991e25756f1fe
+checksums           texlive-latex-recommended-50818-run.tar.xz \
+                    rmd160  5e20aba88795efa42dc0f98b28ab7bb9adb3b346 \
+                    sha256  e98015d3550a0809ca3ca24caee11f38defb667e87994ece937c7abe0a9df2be \
+                    texlive-latex-recommended-50818-doc.tar.xz \
+                    rmd160  3e6eeebd3b8e0fc17fe02d7ef7759fd17077cd4f \
+                    sha256  ba86edb34b54b95af3f39eb70027ae0cbc27bcea67b2d9deaaa38050b055aaea \
+                    texlive-latex-recommended-50818-src.tar.xz \
+                    rmd160  ff2543f7e4f6fe3ccdcadc820dd4eaeeebf5dfb5 \
+                    sha256  3303fde53d3ba443d8b678fb757bfd369dfe803a1b41e226d52502fd85d2b98b
 
 depends_lib         port:texlive-latex
 

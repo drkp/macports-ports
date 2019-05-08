@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-portuguese
-version             49078
+version             50792
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Portuguese
 long_description    Support for Portuguese.
 
-checksums           texlive-lang-portuguese-49078-run.tar.xz \
-                    rmd160  15e55163ca05afaa5f71afcfdc839b829cc1e59b \
-                    sha256  a882d5efca7f9cb6c30fede366f370a896482fbfe176c96aefe45977200481f0 \
-                    texlive-lang-portuguese-49078-doc.tar.xz \
-                    rmd160  73e9ee3069c4964a52fd903b38b193f1553f9931 \
-                    sha256  b6ddec58315c8aec9b53c1b71f0a7301fe6b1173304a9c7415c0813fdc6ff819 \
-                    texlive-lang-portuguese-49078-src.tar.xz \
-                    rmd160  6e609113bbf383e0771868e83e4d58cc386fbf26 \
-                    sha256  612c262bb3dba771e41ef346eda6329b6249a3956642fa11dcc9fb0250528abc
+checksums           texlive-lang-portuguese-50792-run.tar.xz \
+                    rmd160  968c1f0dd62cccdc2a144e779910be83e7db5fa3 \
+                    sha256  26827ef187c5a140b3ee05b3a56048a6fadec20309d3241487340056a36f7e21 \
+                    texlive-lang-portuguese-50792-doc.tar.xz \
+                    rmd160  31128d95b92e1426a61f33e3c6e8dbe12a57ea80 \
+                    sha256  237091fca5dfc8a4e375673890420ce24c125c089b2118e98920a404a9d5262b \
+                    texlive-lang-portuguese-50792-src.tar.xz \
+                    rmd160  727b7866813482fb5fed4801fbbd62fd2ec29d59 \
+                    sha256  a5fa107892066846ededef0700f254c6a14d25f4fb75b4203cc67c6f111e834e
 
 depends_lib         port:texlive-basic
 

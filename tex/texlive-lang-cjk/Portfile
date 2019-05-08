@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cjk
-version             50602
+version             50848
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Chinese/Japanese/Korean (base)
 long_description    Packages supporting a combination of Chinese, Japanese, Korean, including macros, fonts, documentation.  Also Thai in the c90 encoding, since there is some overlap in those fonts\; standard Thai support is in collection-langother.  Additional packages for CJK are in their individual language collections.
 
-checksums           texlive-lang-cjk-50602-run.tar.xz \
-                    rmd160  68d731a700ce0e4f77dc0f7ce23f6eebd758f74a \
-                    sha256  b9772e0a84737f59bed443eb10b7aa37a0e71e09c1f29c54a6b551452b508ff2 \
-                    texlive-lang-cjk-50602-doc.tar.xz \
-                    rmd160  20df46d8a095b0a61f9a9e9d6ba311f74c207d90 \
-                    sha256  e25d437854e0263789356c32a5085eaa37b28f3d46a2936d541ee766ce9dad5c \
-                    texlive-lang-cjk-50602-src.tar.xz \
-                    rmd160  3d3a3815660e64e306be8a3981ec7dbb24be62be \
-                    sha256  32f2aeae2b790a59ad07e1fbef76d132d54bbb221b59b148ddd010b41251d3af
+checksums           texlive-lang-cjk-50848-run.tar.xz \
+                    rmd160  621370e0774004db904b49885a6818bfc16db352 \
+                    sha256  acf1a2a25c4b0ad8bc2efa074c9f9ea25b23a07cce0803f6001e06f850e87a38 \
+                    texlive-lang-cjk-50848-doc.tar.xz \
+                    rmd160  5678cde414c10284f91278ece2f649bac38a3f45 \
+                    sha256  c6efa9dbdc20b2c4a48a4af22f7e07e2272e25770c0444b9363cdd50f7d3f35a \
+                    texlive-lang-cjk-50848-src.tar.xz \
+                    rmd160  c6611f67c44d1e017ed3a936cb0a5842ca83568f \
+                    sha256  78a7f74619cfe15464046c73fcea55ba78e8e1dbdddd1be6613d83d6283ffc3e
 
 depends_lib         port:texlive-basic
 

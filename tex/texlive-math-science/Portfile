@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-math-science
-version             50602
+version             50760
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Mathematics, natural sciences, computer science packages
 long_description    Mathematics, natural sciences, computer science packages
 
-checksums           texlive-math-science-50602-run.tar.xz \
-                    rmd160  35ba8d8a2a329d558c52c6745dc61c7f2a8902de \
-                    sha256  076aadd6a97f9172da5a70ef667f1efca4e70f68569d17ca6648d7b471727128 \
-                    texlive-math-science-50602-doc.tar.xz \
-                    rmd160  aaa0a17deb170a5f50b7444dcda0342f916b7d74 \
-                    sha256  5b91947b6b82a65c2b1617bda86c742ba7b09b84d798993b2f259171ed17cabe \
-                    texlive-math-science-50602-src.tar.xz \
-                    rmd160  5a8f85454b3e60c979f6e1f975b8fbad426eb6d6 \
-                    sha256  769819bc6d9e2b7b6b9452b759d5c8f89044e52834dbaafe4709bb8afc4dc783
+checksums           texlive-math-science-50760-run.tar.xz \
+                    rmd160  1b9cc8952a0fff1ec9e5ef4db50900bda3111002 \
+                    sha256  eaee8534202ba2f723e11232de7292a11266316ad2c8fb2c9a41232d0d5c7ef0 \
+                    texlive-math-science-50760-doc.tar.xz \
+                    rmd160  cb389c33969a463c0813a229b0f2386d93b05484 \
+                    sha256  3f2728e26fd3c0cd22b41c2d69f8f68e86f2fcc8aac947aa1d64db0f9dba1dfb \
+                    texlive-math-science-50760-src.tar.xz \
+                    rmd160  43e00bcd33396c930f93eff029346442fe7d62ae \
+                    sha256  269baa8c09d6fe03fc35df0113cc987f5def77fef97d6039d85bbc116ca301da
 
 depends_lib         port:texlive-fonts-recommended port:texlive-latex
 

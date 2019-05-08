@@ -14,14 +14,14 @@ description         TeX Live: MetaPost and Metafont packages
 long_description    MetaPost and Metafont packages
 
 checksums           texlive-metapost-50602-run.tar.xz \
-                    rmd160  3888be82c66e5820e10408f0fe1ae7be64afb436 \
-                    sha256  4cddf0760a0a49442e9a3c39dbf1800af1fcf5bd7a2397756712b529cbfd812f \
+                    rmd160  1320345f907b7377f3e9763fee5cc50d735ef427 \
+                    sha256  77103a402679ceb3cd68dea62db2eea86b7a7c33d4aef0925d3da48668287e49 \
                     texlive-metapost-50602-doc.tar.xz \
-                    rmd160  c68a43103671cb6652f25a767f6a854385593a66 \
-                    sha256  26f1e4201ff0c03673374ea45540126478d990accb3323cb4050a38e3a84f9fb \
+                    rmd160  0a5d5cdbe19f4fb3a4688b8d6f01ec3f8ece3416 \
+                    sha256  8817c4355603b225615e3f846386d3c58d6b026a973d04ca1379ff6eb0799cfd \
                     texlive-metapost-50602-src.tar.xz \
-                    rmd160  9657322ab7f0426cf98f119033a61e5b3ce61c14 \
-                    sha256  85b5db7e90476b637dd48063d8d0153abc573efe4fd4bf47c86c8285fa7992f2
+                    rmd160  00eda9b4be800bfcdba534e83bd318d8deddbd62 \
+                    sha256  c8ff71814e44904c5c60c09aa81bc7d7aa16b656f6049a992d1cc76204cf84c3
 
 depends_lib         port:texlive-basic
 

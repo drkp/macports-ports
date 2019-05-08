@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bin-extra
-version             50627
+version             50853
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: TeX auxiliary programs
 long_description    Various useful, but non-essential, support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and the TeX Works Editor.
 
-checksums           texlive-bin-extra-50627-run.tar.xz \
-                    rmd160  e40d26bce54a204ce2ee38a36731cd3f3c88f358 \
-                    sha256  b7b2df0572c11b57fa4a3149e6be3b046f93ae1235978cc7bce7740aa9d41da1 \
-                    texlive-bin-extra-50627-doc.tar.xz \
-                    rmd160  d2c0b24104f86f0ed86c94a81a1e11e85a225396 \
-                    sha256  b3e059bc0c3dcabf42c6bb00f35aea62bc0481b63baf8bf7d61826cfd192e59d \
-                    texlive-bin-extra-50627-src.tar.xz \
-                    rmd160  297b494673c60bd2d5f6101169e8be28ba729bd3 \
-                    sha256  8a98e17163b63aa149fe5b358de25592aaf292af1527dcf30fd49a31eadb168a
+checksums           texlive-bin-extra-50853-run.tar.xz \
+                    rmd160  fd06bc36623686fee65206ae9e433a1114ce524c \
+                    sha256  2480438f8868d5a3d75a45a4b24e317ae6f5c53c77301e7f4f2632de472a5de9 \
+                    texlive-bin-extra-50853-doc.tar.xz \
+                    rmd160  412dce7400b540f00b037fbdb137048082cc4e62 \
+                    sha256  640ecd15ad9c101774e88f227dbec8d4f56d684a8df5729f781afa708085d393 \
+                    texlive-bin-extra-50853-src.tar.xz \
+                    rmd160  d865616c403f37bff6826e372271bb107edecd27 \
+                    sha256  4ac12abdc38ce4850a952b2a3316534712b1870c725f9cda89f8eab01f5d9a79
 
 depends_lib         port:texlive-basic
 

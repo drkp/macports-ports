@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
-version             50602
+version             50792
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Czech/Slovak
 long_description    Support for Czech/Slovak.
 
-checksums           texlive-lang-czechslovak-50602-run.tar.xz \
-                    rmd160  ffa87fc78a9a6413afc7a960e7a946d9b000b203 \
-                    sha256  1913072702c9fac83b6d2343066d80b45ecbaf7dfbf182131a32e207cecf791c \
-                    texlive-lang-czechslovak-50602-doc.tar.xz \
-                    rmd160  6feb4fdfbe83a8b9aa5c606a6979e7572f053277 \
-                    sha256  2940f822ea29245df6ca156baf8e66d36d4319c7015b7cc1718a5eaf17ad946f \
-                    texlive-lang-czechslovak-50602-src.tar.xz \
-                    rmd160  65b171da068c03cd3cf2760306a595da0898afff \
-                    sha256  5db698d04d4c89888767be10d7b44d3cbf587429b5defd199eec1a9586a6cde9
+checksums           texlive-lang-czechslovak-50792-run.tar.xz \
+                    rmd160  c942368c2d78df06a9d39dfca71df45b203caf34 \
+                    sha256  528a4e85f0c404b15540423238868ed1e85ba246ce07b97f9590de05cfc91154 \
+                    texlive-lang-czechslovak-50792-doc.tar.xz \
+                    rmd160  4d15eff0f9af73194cf83e49d929348153ed69cf \
+                    sha256  3905f0443fbc79240ab9200143022bbd50595dc41beb0ac8fa54ec1a08de50b6 \
+                    texlive-lang-czechslovak-50792-src.tar.xz \
+                    rmd160  a1d6e28e408d9a5500fa7f2d6842be267668a8bd \
+                    sha256  e4b57663cfc4e0c2c9f3f933e0144c5d145da064bdffcd83fd28068a4b4bafc2
 
 depends_lib         port:texlive-basic port:texlive-latex
 

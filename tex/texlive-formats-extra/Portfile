@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-formats-extra
-version             50602
+version             50700
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Additional formats
 long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files -- excluding the most common ones, such as latex and context, which have their own package(s). It also includes the Aleph engine and related Omega formats and packages.
 
-checksums           texlive-formats-extra-50602-run.tar.xz \
-                    rmd160  62fc5fc7c53d7ae1d8e3116957125f735d6e83bb \
-                    sha256  e251bf6de0f8aaad4acf3c9ccc1fea5ac2a1190daafc51ddf740f94eb7b771f8 \
-                    texlive-formats-extra-50602-doc.tar.xz \
-                    rmd160  4de4e916a45b3c047a28d0ca057da9101d4078fe \
-                    sha256  902eb061cfefe3ad8822eff727e81840ca0853095573c1b730e489e57e36b1ab \
-                    texlive-formats-extra-50602-src.tar.xz \
-                    rmd160  2d8232e291f75d0d237128aa840f35e0ba7ec0c5 \
-                    sha256  e7e6d16ad0a2c31adb4f2725f6170a1921b53706e277db20926170538782b25f
+checksums           texlive-formats-extra-50700-run.tar.xz \
+                    rmd160  074eb786eb9dbded695c6c8320e0a638787e74dc \
+                    sha256  a84aa6a2cb385965934bae0f30a0007509d315c7295c80a632bfdcec5e34662d \
+                    texlive-formats-extra-50700-doc.tar.xz \
+                    rmd160  999bd7c0b7d1353f36dd1fe277ac006a6b9d4b3b \
+                    sha256  1e9c3824c9fc8c48ad4c597742cf0af6b47fedca25a02c6937835ecffca45511 \
+                    texlive-formats-extra-50700-src.tar.xz \
+                    rmd160  01786c46f1d60da2db636760de68b5f262181c7b \
+                    sha256  7a9d3dc77e7fdd9b4dfe561d1612d50de0f7aaf72944bd163693031260bdba0b
 
 depends_lib         port:texlive-basic port:texlive-latex
 

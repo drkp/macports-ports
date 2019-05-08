@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-european
-version             49701
+version             50792
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Other European languages
 long_description    Support for a number of European languages\; others (Greek, German, French, ...) have their own collections, depending simply on the size of the support.
 
-checksums           texlive-lang-european-49701-run.tar.xz \
-                    rmd160  7ddb29cf68db15b5b612a9a67cbb06714b82607b \
-                    sha256  cdf44cffe0e60b3ebcdad524a89d554c9326d092189ac804b6434eb615f8fb30 \
-                    texlive-lang-european-49701-doc.tar.xz \
-                    rmd160  69104dabd7d7a091acec7b394aaa7788e00d11cc \
-                    sha256  7c0b60dc5d90c4b33492facbb8b27759582f537189717998006c8d63904a0414 \
-                    texlive-lang-european-49701-src.tar.xz \
-                    rmd160  ad8c019bcc0b0a74a06675c84fbd7029ee5b0f83 \
-                    sha256  f179e19a2a73550922b246798c28c55ce6c4efef9029d9ec22e2f8dca1b32c79
+checksums           texlive-lang-european-50792-run.tar.xz \
+                    rmd160  b3de82bab309197806785f4121beb783bd006b4f \
+                    sha256  bc26943f6ff97d9b5694ec8f683795b9903c7850e626a373017eb80a67179417 \
+                    texlive-lang-european-50792-doc.tar.xz \
+                    rmd160  2f3cb413258808ebb7037786c37bc909c82ed61e \
+                    sha256  d44a1649d4167a81e9bd886ec651a7f2c1a64f9c5284d35f1b9f5de17334fc64 \
+                    texlive-lang-european-50792-src.tar.xz \
+                    rmd160  ceafa13e9918a4e1c02b6c51d91c4ca36515d668 \
+                    sha256  30e66854a8192b1ce7f69bebe00410f7e9dd0bedf15305c826b679e9c1e2aff8
 
 depends_lib         port:texlive-basic
 

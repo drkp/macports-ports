@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-chinese
-version             50492
+version             50850
 revision            0
 
 categories          tex
@@ -13,20 +13,17 @@ license             Copyleft Permissive
 description         TeX Live: Chinese
 long_description    Support for Chinese\; additional packages in collection-langcjk.
 
-checksums           texlive-lang-chinese-50492-run.tar.xz \
-                    rmd160  4a1d58f3334e2a449c312cf40a97156ad117ac7f \
-                    sha256  f738ba707dae5672f1c3cb069c5647c57a6f42b385f3aa3dea7715cd419130f4 \
-                    texlive-lang-chinese-50492-doc.tar.xz \
-                    rmd160  2d6669371556fcf602f8da859376ce749fe25c48 \
-                    sha256  9c5644b1bac40d30b8f78b0dcfca106369b9e947a7993ed03d64f14d5441db57 \
-                    texlive-lang-chinese-50492-src.tar.xz \
-                    rmd160  8f0be96224253ac931adc4a251983861030c672b \
-                    sha256  4b3347000170f2c6f0734c7ef624a328f32a86ca660bebde2df368ede285bf3c
+checksums           texlive-lang-chinese-50850-run.tar.xz \
+                    rmd160  e661dda6cc1b1473e344e0e442fff40e541a1b35 \
+                    sha256  4473935a2dc7fff1e77e21585b6ace73d9cc571b03bd7b1e35dbce36ceba42c4 \
+                    texlive-lang-chinese-50850-doc.tar.xz \
+                    rmd160  1d45265cbd631d7c6e6447eac341b5c99c7bf945 \
+                    sha256  3333987f926de267badfa98498a8485b5b4364f86cf73313a5c059937eea4650 \
+                    texlive-lang-chinese-50850-src.tar.xz \
+                    rmd160  c01a75d43c835e1e72f1d913c4fb6fa1851dd2a3 \
+                    sha256  da9faa67410d58b97301b09bdc7124efd616ad6ad736665b004b1cbd0c488150
 
 depends_lib         port:texlive-lang-cjk
-
-texlive.languages      \
-    {pinyin loadhyph-zh-latn-pinyin.tex 1 1 {} {hyph-zh-latn-pinyin.pat.txt} {} {} }
 
 texlive.maps      \
     {Map bkaiu.map} \

@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-luatex
-version             50608
+version             50816
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using Lua as an embedded scripting and extension language. http://luatex.org/
 
-checksums           texlive-luatex-50608-run.tar.xz \
-                    rmd160  daa8d2ee70b678755f1c2f842857f98b1529f4a6 \
-                    sha256  0a07004bf8276d996dad6f9d3b381ce16317b7a63562af8fd93eb5365eb97f71 \
-                    texlive-luatex-50608-doc.tar.xz \
-                    rmd160  fec00f0c5903836b91032214d022430c20e30219 \
-                    sha256  c7451a8f5473702b11adfc41b60853f7a2aa0eb199cefe3543731b028df47d52 \
-                    texlive-luatex-50608-src.tar.xz \
-                    rmd160  06bb4677a0916ae1b262a03550d8fd7e5d187193 \
-                    sha256  e053b5b658e69edbdfc8c2b91e93f4e5f598ef0f261086a772b4ebdf96d50982
+checksums           texlive-luatex-50816-run.tar.xz \
+                    rmd160  56576011e0cafc006e39fb72539f84562599d0ed \
+                    sha256  54bf56cf4dfb9c66b92a94ce594332fd7b320906e84c0d19865628e2953b3dc8 \
+                    texlive-luatex-50816-doc.tar.xz \
+                    rmd160  ed5169e4bf3cc6fd1fca0be5a650776f5c40ae4e \
+                    sha256  5b9156e6db2791964fcfb5b2d06b1ec595f78966ce4c8f4748e5d440e92f266a \
+                    texlive-luatex-50816-src.tar.xz \
+                    rmd160  e0274344fb4213283a8a9224cc3cd78deb0e7c26 \
+                    sha256  ac2414c953d81775f4dfa3f404fb2ec031f5f968259f333fe8da90ad40492447
 
 depends_lib         port:texlive-basic
 

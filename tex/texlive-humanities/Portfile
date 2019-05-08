@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-humanities
-version             50229
+version             50740
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, social sciences, humanities, etc.
 
-checksums           texlive-humanities-50229-run.tar.xz \
-                    rmd160  4dfed70d2915cd4620ead07c4242c0783d4507a6 \
-                    sha256  f30ae96ba32ebbe80cfebf0412f9467eb83183d372d550d2a1f9f14afeda69d3 \
-                    texlive-humanities-50229-doc.tar.xz \
-                    rmd160  9b8cc227037a856eb6b6d618a58871313198c681 \
-                    sha256  54389d76e06454160d516bfc49161f64c2ecb195dbd6388fee5b4b4cc04d1e25 \
-                    texlive-humanities-50229-src.tar.xz \
-                    rmd160  48943e300177a2ae4bf4bebd4dec72b095126768 \
-                    sha256  3635ab2e2d12a1ff57618f8215336430ef06c390efed1032ae775fb08393e0a6
+checksums           texlive-humanities-50740-run.tar.xz \
+                    rmd160  0c07a13435d89deb0095882b8393b66e5e2d5524 \
+                    sha256  3844565b354adec1e123fd33dd66c42430bb2792603820cd102adee429c45ba7 \
+                    texlive-humanities-50740-doc.tar.xz \
+                    rmd160  52f03c20afccfbff3cee1bca8a37e1d041744610 \
+                    sha256  ce6e3e52af792edd850a879b3a7393df9be30648d31c347858c569417e20129e \
+                    texlive-humanities-50740-src.tar.xz \
+                    rmd160  6bd1be4fd937819bc1a8a73decff1a9b249ca475 \
+                    sha256  21b5478d7cf590d9f96ab6e35c04c9ffec7c363d9f629d7f6aa896c991ddf28e
 
 depends_lib         port:texlive-latex
 

@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-japanese
-version             50631
+version             50873
 revision            0
 
 categories          tex
@@ -13,15 +13,15 @@ license             Copyleft Permissive
 description         TeX Live: Japanese
 long_description    Support for Japanese\; additional packages in collection-langcjk.
 
-checksums           texlive-lang-japanese-50631-run.tar.xz \
-                    rmd160  065b92b312581967833c25bc2fe60d6386d5e6d6 \
-                    sha256  f9aab4ffea209e850a269b0efc7dec690870f0349a9f605f6ba571bc2ed423f4 \
-                    texlive-lang-japanese-50631-doc.tar.xz \
-                    rmd160  5047a2b8164ec459f5fd5c40bbbee5c8c488003f \
-                    sha256  70d9046b88205593b4213d20b26d4a13c56a4041dfef487b8fa4b63d7f9014e5 \
-                    texlive-lang-japanese-50631-src.tar.xz \
-                    rmd160  4a2c522f1108bda86facfec75a713ad4fb687241 \
-                    sha256  ad722eaaa08b69f57b5b405dbd321e7a99f05873967c5db6f9195dbee1b7efcd
+checksums           texlive-lang-japanese-50873-run.tar.xz \
+                    rmd160  969e330130efdd4247d8d2e137cf01ec67322620 \
+                    sha256  07e14f4c0092f846d5ce7a66f633fdd344d9464b878fb7f107956b5b9b7e40f0 \
+                    texlive-lang-japanese-50873-doc.tar.xz \
+                    rmd160  55513c6cebf1a56743fdc9fb1e5a40e1e83c8d27 \
+                    sha256  3690ef4b54d832a05327cdb55cb617dfac02d55e4f5370b4667d234779309103 \
+                    texlive-lang-japanese-50873-src.tar.xz \
+                    rmd160  c648d9fedc71794b914be9159db362cc65c5054a \
+                    sha256  c911a0c28a090cad82fcbd71a8de27389fc7b813d9b59daee24e87bca3c2ab4f
 
 depends_lib         port:texlive-lang-cjk
 
