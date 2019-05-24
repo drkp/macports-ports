@@ -50,9 +50,9 @@ set tlpkgdistname   tlpkg-TeXLive-${version}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
 checksums           texlive-source-2019.50896-stripped.tar.xz \
-                    rmd160  d1082a4831b1f73e94b4f737e1d56fcca199655d \
-                    sha256  866fbb2e26454bff01beccd2ac332eb97d189a668fac632341d01e2665172699 \
-                    size    22027716 \
+                    rmd160  4233a11c7772f9a80f61b58af3e6ecdc4d88d0dd \
+                    sha256  70eb88d3600ba40f575904be92b478882f14eba88c54843782b1bed46b944202 \
+                    size    22411076 \
                     tlpkg-TeXLive-2019.50896.tar.xz \
                     rmd160  3d1a2d246845e9ddbde163e6622c1132fc39aabd \
                     sha256  65a2c5f95f0d4f0fd64757bc83169261ca0fa96b3259c2c645a0ce4f1c13d4d2 \
