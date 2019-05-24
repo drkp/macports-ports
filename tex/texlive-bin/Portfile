@@ -50,9 +50,9 @@ set tlpkgdistname   tlpkg-TeXLive-${version}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
 checksums           texlive-source-2019.50896-stripped.tar.xz \
-                    rmd160  49bcc62c3516702f17474c935f5cbee1fa282556 \
-                    sha256  dec002e141f751fbdb9bafbdcf878e309c7ec4340dd1f47309c85a2c34a528c0 \
-                    size    22028200 \
+                    rmd160  d1082a4831b1f73e94b4f737e1d56fcca199655d \
+                    sha256  866fbb2e26454bff01beccd2ac332eb97d189a668fac632341d01e2665172699 \
+                    size    22027716 \
                     tlpkg-TeXLive-2019.50896.tar.xz \
                     rmd160  3d1a2d246845e9ddbde163e6622c1132fc39aabd \
                     sha256  65a2c5f95f0d4f0fd64757bc83169261ca0fa96b3259c2c645a0ce4f1c13d4d2 \
@@ -167,7 +167,7 @@ configure.args  --bindir=${texlive_bindir} \
                 --with-system-pixman \
                 --without-system-poppler \
                 --with-system-potrace \
-                --with-system-xpdf \
+                --without-system-xpdf \
                 --with-system-zlib \
                 --with-system-zziplib \
                 --disable-biber \
