@@ -25,9 +25,9 @@ master_sites        https://giraffe.cs.washington.edu/texlive/test \
 worksrcdir          ${distname}
 use_xz              yes
 
-checksums           rmd160  0707fa9a11888b33eebc2f21693685c4fccada57 \
-                    sha256  1383b7a4c1c372ba5e5811969979eab71082d7b389590c67ab2041fe36876cc0 \
-                    size    17252
+checksums           rmd160  dab9da619817b9924a1689960deb2cd7f8528423 \
+                    sha256  8dd4eb538fa40de5839474a6e3f9fcd4956765fa7bac7ee3f17060b847d09a6b \
+                    size    17176
 
 livecheck.type  regex
 livecheck.url   [lindex ${master_sites} 0]
