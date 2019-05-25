@@ -161,7 +161,8 @@ variant full \
                     port:texlive-plain-generic \
                     port:texlive-pstricks \
                     port:texlive-publishers \
-                    port:texlive-xetex
+                    port:texlive-xetex \
+                    port:biblatex-biber
 
         if {![variant_isset "doc"]} {
             texlive.removedocdepends
