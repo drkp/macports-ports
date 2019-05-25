@@ -79,6 +79,22 @@ pre-activate {
          && ([vercmp [lindex $vers 1] 50852] < 0) } {
         registry_deactivate_composite texlive-xetex "" [list ports_nodepcheck 1]
     }
+    if { ![catch {set vers [lindex [registry_active texlive-lang-cyrillic] 0]}]
+         && ([vercmp [lindex $vers 1] 50792] < 0) } {
+        registry_deactivate_composite texlive-lang-cyrillic "" [list ports_nodepcheck 1]
+    }
+    if { ![catch {set vers [lindex [registry_active texlive-lang-spanish] 0]}]
+         && ([vercmp [lindex $vers 1] 50792] < 0) } {
+        registry_deactivate_composite texlive-lang-spanish "" [list ports_nodepcheck 1]
+    }
+    if { ![catch {set vers [lindex [registry_active texlive-lang-european] 0]}]
+         && ([vercmp [lindex $vers 1] 50792] < 0) } {
+        registry_deactivate_composite texlive-lang-european "" [list ports_nodepcheck 1]
+    }
+    if { ![catch {set vers [lindex [registry_active texlive-lang-other] 0]}]
+         && ([vercmp [lindex $vers 1] 50792] < 0) } {
+        registry_deactivate_composite texlive-lang-other "" [list ports_nodepcheck 1]
+    }
 }
 
 texlive.texmfport
