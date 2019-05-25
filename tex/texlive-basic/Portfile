@@ -75,6 +75,10 @@ pre-activate {
          && ([vercmp [lindex $vers 1] 50853] < 0) } {
         registry_deactivate_composite texlive-bin-extra "" [list ports_nodepcheck 1]
     }
+    if { ![catch {set vers [lindex [registry_active texlive-xetex] 0]}]
+         && ([vercmp [lindex $vers 1] 50852] < 0) } {
+        registry_deactivate_composite texlive-xetex "" [list ports_nodepcheck 1]
+    }
 }
 
 texlive.texmfport
