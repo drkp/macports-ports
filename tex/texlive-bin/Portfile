@@ -14,8 +14,7 @@ PortGroup       texlive 1.0
 PortGroup       muniversal 1.0
 
 name            texlive-bin
-version         2020.54632
-revision        3
+version         20210226.57955
 
 categories      tex
 maintainers     {dports @drkp}
@@ -39,13 +38,13 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download time, it omits a number of libraries and utilities that we
 # don't build. However, the port should still work with an unmodified
 # texlive distfile.
-master_sites    https://www.ambulatoryclam.net/texlive/ \
-                https://alpaca.cs.washington.edu/texlive/ \
-                https://giraffe.cs.washington.edu/texlive/
+master_sites    https://www.ambulatoryclam.net/texlive/test \
+                https://alpaca.cs.washington.edu/texlive/test \
+                https://giraffe.cs.washington.edu/texlive/test
 
 
 use_xz          yes
-distname        texlive-source-${version}-stripped
+distname        texlive-source-${version}
 worksrcdir      ${distname}
 
 compiler.cxx_standard \
@@ -55,14 +54,14 @@ compiler.cxx_standard \
 set tlpkgdistname   tlpkg-TeXLive-${version}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-2020.54632-stripped.tar.xz \
-                    rmd160  f9c6dac943ccb7fc4e53a7ade39540b419731612 \
-                    sha256  de5e59a075bfefe978cdd92e4a094b7b98921797eddabe071a426e2f33cdd3f5 \
-                    size    21592296 \
-                    tlpkg-TeXLive-2020.54632.tar.xz \
-                    rmd160  7641dd67484846a35485ce38cb6be3a59ac0061e \
-                    sha256  377babffdb8f92dc3e934f198edc71057110d66823709418c0fe71dade17ac64 \
-                    size    111368
+checksums           texlive-source-20210226.57955.tar.xz \
+                    rmd160  0dd87934105aab648c3c1a5baf78698df2cca446 \
+                    sha256  3062c8928881cca7dc24486618dd7dece8ff18284f1a0643e765c73177e330bd \
+                    size    52467144 \
+                    tlpkg-TeXLive-20210226.57955.tar.xz \
+                    rmd160  252a11bc6dc7224fa253b646b62381225a3914bd \
+                    sha256  dba2e347709b6c047ce4b187de0f7365a7a57108803912013d2aa6487a5449fa \
+                    size    112256
 
 depends_lib     port:fontconfig \
                 port:freetype \
@@ -101,14 +100,6 @@ patchfiles-append  \
 # architecture in universal builds
 patchfiles-append  patch-libs_luajit_configure.diff \
                    patch-texk_web2c_configure.diff
-
-# fix finding of snprintf and vsnprintf on macOS 11.0
-# https://trac.macports.org/ticket/60963
-patchfiles-append  patch-texk_kpathsea_configure.diff
-
-# fix build on ARM64, which does not have "finite()"
-# https://trac.macports.org/ticket/61547
-patchfiles-append  patch-texk_web2c_luatexdir_luafontloader_fontforge_fontforge-fix_finite.diff
 
 post-patch {
     reinplace "s|@@TEXMFDIST@@|${texlive_texmfdist}|" ${worksrcpath}/texk/texlive/linked_scripts/Makefile.in
