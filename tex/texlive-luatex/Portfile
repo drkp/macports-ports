@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-luatex
-version             54550
+version             57908
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a Unicode-aware extension of pdfTeX, using Lua as an embedded scripting and extension language. http://luatex.org/
 
-checksums           texlive-luatex-54550-run.tar.xz \
-                    rmd160  9274ab012c1d7ed63f0847015dac47b69252c718 \
-                    sha256  0c49eba475b4ac61cd6ea4fc5e4e500ca0b600822451870b903465ee22fe3add \
-                    size    10928592 \
-                    texlive-luatex-54550-doc.tar.xz \
-                    rmd160  ad360ad871ac1ff350cceae146ce9a81f5e9647b \
-                    sha256  f8f4aa67d8228c934fb590f3caecc42cebf028e11d43e847cbe4fbad209c7f9d \
-                    size    9659560 \
-                    texlive-luatex-54550-src.tar.xz \
-                    rmd160  19af1bb7d699477fa44eff2fa1ea96aa84421a80 \
-                    sha256  5b9390fec493b52c1f84357fdc7cee73c1bdc5467e0781f20aa24590c0ec257e \
-                    size    224880
+checksums           texlive-luatex-57908-run.tar.xz \
+                    rmd160  0329d120c79646b0eba7a0585da010bd974b45ec \
+                    sha256  8bc2566fb370c3b5a8bd9913bd2fc5bd79d48d6e829846a2f4ea4b8b22c3355c \
+                    size    14665848 \
+                    texlive-luatex-57908-doc.tar.xz \
+                    rmd160  c0c288373abb0d14de44cb0bcc51f1c773874173 \
+                    sha256  26d5d2d1ea69f3d1f32757c8c51de4fe99d48fcace0f1cc3a20cf9ec2274384e \
+                    size    12603872 \
+                    texlive-luatex-57908-src.tar.xz \
+                    rmd160  0cb72b907d0fa2fa54b833da0ab7a76b8513e3b5 \
+                    sha256  f7aabc2920ebe62724bf8802ffc77e9bf6e695a853b46519778d016f66814499 \
+                    size    240188
 
 depends_lib         port:texlive-basic
 

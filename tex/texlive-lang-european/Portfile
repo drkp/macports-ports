@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-european
-version             54568
+version             57666
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Other European languages
 long_description    Support for a number of European languages\; others (Greek, German, French, ...) have their own collections, depending simply on the size of the support.
 
-checksums           texlive-lang-european-54568-run.tar.xz \
-                    rmd160  0b37f630770647e3a8d375f5fc2ff0d19671ee39 \
-                    sha256  74e51d4f75d010c0eaee51eb18f13b700434f4e51c3ceff8f1e68dded7d6a606 \
-                    size    14049972 \
-                    texlive-lang-european-54568-doc.tar.xz \
-                    rmd160  10c87aeb396b98eb86648c7fb4fe43bcadab5162 \
-                    sha256  148ed1814e8d3bc23e9de4a0f56c8da2f5f69e1f7e6796a5a4dab8c0c24595c4 \
-                    size    12554256 \
-                    texlive-lang-european-54568-src.tar.xz \
-                    rmd160  f812377c662242ce3d0e32a310f8122715de52e2 \
-                    sha256  e5212347f8f6533d5f67c413047e108ef42a5d35f876e80484a1daa2c66a204a \
-                    size    143772
+checksums           texlive-lang-european-57666-run.tar.xz \
+                    rmd160  4082de18723e38181a429d8c796ec664d8593b42 \
+                    sha256  bc6b3ebdb5c7d8938400c07fa712858765b41a32cd6d803e50ea57df7db67b7c \
+                    size    14580328 \
+                    texlive-lang-european-57666-doc.tar.xz \
+                    rmd160  c8058e4f9f98a5384144566061a6a74b034cd296 \
+                    sha256  36c766c2ede2272519a4ddd7f5d245d786f8d5a20a18161a113420e89a2c9647 \
+                    size    12748824 \
+                    texlive-lang-european-57666-src.tar.xz \
+                    rmd160  ff0c5b18bdc737ef6f64d8c9a6915df9d3f10b5f \
+                    sha256  6a7013632d896159d480f77f480f51a1b31d4582f2eeb43d5eb8a40f76a9927a \
+                    size    144768
 
 depends_lib         port:texlive-basic
 
@@ -39,8 +39,8 @@ texlive.languages      \
     {icelandic loadhyph-is.tex 2 2 {} {hyph-is.pat.txt} {} {} } \
     {irish loadhyph-ga.tex 2 3 {} {hyph-ga.pat.txt} {hyph-ga.hyp.txt} {} } \
     {kurmanji loadhyph-kmr.tex 2 2 {} {hyph-kmr.pat.txt} {} {} } \
-    {latin loadhyph-la.tex 2 2 {} {hyph-la.pat.txt} {} {} } \
     {classiclatin loadhyph-la-x-classic.tex 2 2 {} {hyph-la-x-classic.pat.txt} {} {} } \
+    {latin loadhyph-la.tex 2 2 {} {hyph-la.pat.txt} {} {} } \
     {liturgicallatin loadhyph-la-x-liturgic.tex 2 2 {} {hyph-la-x-liturgic.pat.txt} {} {} } \
     {latvian loadhyph-lv.tex 2 2 {} {hyph-lv.pat.txt} {} {} } \
     {lithuanian loadhyph-lt.tex 2 2 {} {hyph-lt.pat.txt} {} {} } \
@@ -60,7 +60,8 @@ texlive.languages      \
 texlive.maps      \
     {MixedMap arss.map} \
     {MixedMap artm.map} \
-    {Map l7x-urwvn.map}
+    {Map l7x-urwvn.map} \
+    {Map rojud.map}
 
 
 texlive.texmfport

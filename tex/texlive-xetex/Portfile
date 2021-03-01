@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-xetex
-version             54512
+version             57908
 revision            0
 
 categories          tex
@@ -13,25 +13,25 @@ license             Copyleft Permissive
 description         TeX Live: XeTeX and packages
 long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://tug.org/xetex.
 
-checksums           texlive-xetex-54512-run.tar.xz \
-                    rmd160  56b3b6c181320dcf84e289691044dc0ee401d1e9 \
-                    sha256  079984281ef249d6b758b7733da1774f555548843f018998852bedb97d4fd4e1 \
-                    size    15158764 \
-                    texlive-xetex-54512-doc.tar.xz \
-                    rmd160  75bf9d3d157d66b877b0ad8687e72b9351a789c0 \
-                    sha256  bd39502dff2315b9f63be3e8b723ad546d3f5cc8587450929a19333911b865d5 \
-                    size    12471604 \
-                    texlive-xetex-54512-src.tar.xz \
-                    rmd160  3a4eaf4af2cfb6e93acaba3696ca55dcec3e6701 \
-                    sha256  cac911f5302de78d5ae3b34c1a184689e4d6593c46b59cf65c9311a7e27c353b \
-                    size    139144
+checksums           texlive-xetex-57908-run.tar.xz \
+                    rmd160  31c2ec895711b52e91dcb66b9273f2bfe0ca23a9 \
+                    sha256  4686bdcf7a0786c314ca44cf6e76bd13fa12b569bce42c306d6c32d772833251 \
+                    size    12559728 \
+                    texlive-xetex-57908-doc.tar.xz \
+                    rmd160  76a14a40ac28ac779892b407e9f099f85ecac255 \
+                    sha256  90d172594a95367ee80fd46caa3127659318f9a4fa00b90eeee89b1446930b54 \
+                    size    11600304 \
+                    texlive-xetex-57908-src.tar.xz \
+                    rmd160  6351aecff22ebeba662fe244e55dd054d5483b24 \
+                    sha256  054633eee194face634ef815197da7dcb5dd338bda5db89ab6e4453e9a82d649 \
+                    size    140480
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
     {1 xelatex-dev xetex language.dat {-etex xelatex.ini}} \
-    {1 xetex xetex language.def {-etex xetex.ini}} \
-    {1 xelatex xetex language.dat {-etex xelatex.ini}}
+    {1 xelatex xetex language.dat {-etex xelatex.ini}} \
+    {1 xetex xetex language.def {-etex xetex.ini}}
 
 texlive.binaries    teckit_compile xelatex xelatex-dev xetex
 

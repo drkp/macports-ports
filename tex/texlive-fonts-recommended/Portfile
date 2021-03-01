@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-recommended
-version             54512
+version             57866
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Recommended fonts
 long_description    Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX Gyre, and T1 and other encoding support for Computer Modern, in outline form.
 
-checksums           texlive-fonts-recommended-54512-run.tar.xz \
-                    rmd160  cf72112c4b6a3a456a3966f63098da53a83dd3cd \
-                    sha256  f8f4f67e6a7c3ff30973156d2b4d95961bdcc250081151b6dd6d983b5ee0318f \
-                    size    113932228 \
-                    texlive-fonts-recommended-54512-doc.tar.xz \
-                    rmd160  bbee49224f8e7cb0031ee631a8709810724df4bb \
-                    sha256  e254b8760243cf6d42274a4b0a0e0d282381f4500f14ffd8ab1736adbdd97086 \
-                    size    13956788 \
-                    texlive-fonts-recommended-54512-src.tar.xz \
-                    rmd160  72191123f954428e3fd07d57f58183cf21f4200c \
-                    sha256  2220946a4a7361630ee99b12631f6506669930bec013bfca6114bbefd914efb0 \
-                    size    6377512
+checksums           texlive-fonts-recommended-57866-run.tar.xz \
+                    rmd160  75727a2a6c2b52ae9659ddda1a58d8d00ebfa017 \
+                    sha256  98c13b15e8da9694cf8f7e4decde651e1082d00261d36a582b515b69727861d9 \
+                    size    113922720 \
+                    texlive-fonts-recommended-57866-doc.tar.xz \
+                    rmd160  adc47eeaf3fbaeb190902fff6fdb40d3a7f64d18 \
+                    sha256  48a4e63b7d017d5cb75ab071fc961aed8e8d99a3e727d97f5325cd37a056f8fd \
+                    size    13956932 \
+                    texlive-fonts-recommended-57866-src.tar.xz \
+                    rmd160  0a034b8d22c59765aa4fa93c09298065360fce64 \
+                    sha256  a19f79d37888ba22218971f10979de4a616bd5489865e94623e7fd42c5aed9f8 \
+                    size    6376824
 
 depends_lib         port:texlive-basic
 
@@ -41,8 +41,8 @@ texlive.maps      \
     {MixedMap eurosym.map} \
     {Map uhv.map} \
     {Map lm.map} \
-    {Map marvosym.map} \
     {MixedMap manfnt.map} \
+    {Map marvosym.map} \
     {MixedMap mflogo.map} \
     {Map unc.map} \
     {Map upl.map} \

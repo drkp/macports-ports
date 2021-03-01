@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-formats-extra
-version             54498
+version             57908
 revision            0
 
 categories          tex
@@ -13,22 +13,23 @@ license             Copyleft Permissive
 description         TeX Live: Additional formats
 long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files -- excluding the most common ones, such as latex and context, which have their own package(s). It also includes the Aleph engine and related Omega formats and packages.
 
-checksums           texlive-formats-extra-54498-run.tar.xz \
-                    rmd160  fe9ef6e1cb37d5e71ad614fc6e58b54fb460910e \
-                    sha256  a740bf185ff45c9e8328d562c2b7783b670289f90516a923603b687a4417d10c \
-                    size    5048232 \
-                    texlive-formats-extra-54498-doc.tar.xz \
-                    rmd160  70d3343bde4f7f3b635f8735363f0616f3ba17d6 \
-                    sha256  bb7352b82900de3e8f20fbbc216c6d4d374fc8546ecb4ca34c9c0da7e7e366af \
-                    size    2969284 \
-                    texlive-formats-extra-54498-src.tar.xz \
-                    rmd160  30c7baf4751ab11715f8c7681e1266d132edbbaa \
-                    sha256  ddf690b7b4160be3daa703c82249f0bf8c3a6dae21e8adcb65c4f0dba7b62673 \
-                    size    478612
+checksums           texlive-formats-extra-57908-run.tar.xz \
+                    rmd160  35b299711942421ab9bbf7ceaaa708c7474ae588 \
+                    sha256  11ea9e28cc48bc8fba6c299c9486871b9ecf766d88f0133da77b042f5aefcf70 \
+                    size    5024988 \
+                    texlive-formats-extra-57908-doc.tar.xz \
+                    rmd160  90412259b8ecb7c84c37c1cc9f443f148f633fba \
+                    sha256  511352685b5fbe8886ecac41fcd8a538b44afc643640bbe49443397ad70273ea \
+                    size    2946168 \
+                    texlive-formats-extra-57908-src.tar.xz \
+                    rmd160  3b12160af5e02b26d054d426f64e6c4b5cdefbbd \
+                    sha256  dc56514ea441b8fb1ee062c166a92a67e46967e5ddaa80cf9199412f3a4b2cf8 \
+                    size    478996
 
 depends_lib         port:texlive-basic port:texlive-latex
 
 texlive.formats      \
+    {1 aleph aleph - {*aleph.ini}} \
     {1 eplain pdftex language.dat {-translate-file=cp227.tcx *eplain.ini}} \
     {1 jadetex pdftex language.dat {*jadetex.ini}} \
     {1 pdfjadetex pdftex language.dat {*pdfjadetex.ini}} \
@@ -36,16 +37,14 @@ texlive.formats      \
     {1 mllatex pdftex language.dat {-translate-file=cp227.tcx -mltex *mllatex.ini}} \
     {1 mltex pdftex - {-translate-file=cp227.tcx -mltex mltex.ini}} \
     {1 texsis pdftex - {-translate-file=cp227.tcx texsis.ini}} \
-    {1 xmltex pdftex language.dat {*xmltex.ini}} \
     {1 pdfxmltex pdftex language.dat {*pdfxmltex.ini}} \
-    {1 aleph aleph - {*aleph.ini}} \
-    {1 lamed aleph language.dat {*lambda.ini}}
+    {1 xmltex pdftex language.dat {*xmltex.ini}}
 
 texlive.maps      \
     {Map mxedruli.map} \
     {Map omega.map}
 
-texlive.binaries    aleph eplain jadetex lamed lollipop mllatex mltex odvicopy odvitype ofm2opl omfonts opl2ofm otangle otp2ocp outocp ovf2ovp ovp2ovf pdfjadetex pdfxmltex texsis wofm2opl wopl2ofm wovf2ovp xmltex
+texlive.binaries    aleph eplain jadetex lollipop mllatex mltex odvicopy odvitype ofm2opl omfonts opl2ofm otangle otp2ocp outocp ovf2ovp ovp2ovf pdfjadetex pdfxmltex texsis wofm2opl wopl2ofm wovf2ovp xmltex
 
 
 texlive.texmfport

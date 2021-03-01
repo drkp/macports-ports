@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex
-version             54498
+version             57908
 revision            0
 
 categories          tex
@@ -13,26 +13,26 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX fundamental packages
 long_description    These packages are either mandated by the core LaTeX team, or very widely used and strongly recommended in practice.
 
-checksums           texlive-latex-54498-run.tar.xz \
-                    rmd160  296d0367d016dcfef73094982237d35f0b46f724 \
-                    sha256  790b9956b0869e4b2d34bbd55f4fa390fc7481dce272a0e89124e0c61b90e583 \
-                    size    67239000 \
-                    texlive-latex-54498-doc.tar.xz \
-                    rmd160  825277405a62265e1a55305c6b43b5a3a1446b55 \
-                    sha256  171414f483c5304dfd7cda524882ecdf5393aaa8e4a70859f9993d494bc8445c \
-                    size    63391432 \
-                    texlive-latex-54498-src.tar.xz \
-                    rmd160  c4ab0978825df1fc1d6a29a7157a1acf9a4abf85 \
-                    sha256  3a18a356b313df464f384070ec561cfdd3f7f14f5ae461a17fea520b1d5e405d \
-                    size    2955128
+checksums           texlive-latex-57908-run.tar.xz \
+                    rmd160  3cd6af4ead5f20e9a1ccab3ab3a913f9a7f3f320 \
+                    sha256  ff5acd222b029bf77b2d2eb563878da5e80f3dcc6033d02128a65f99d81dd64b \
+                    size    76210928 \
+                    texlive-latex-57908-doc.tar.xz \
+                    rmd160  4a2d75c89e624c84b595b57d0d81351ece32772d \
+                    sha256  3f0ea76525a08b7f57f527f35b1ebe044b7f3cca3b119477b7f9369db34e4bc6 \
+                    size    71790960 \
+                    texlive-latex-57908-src.tar.xz \
+                    rmd160  b31dec1c69d8c981b097fb304c4a5b8e4bf8067a \
+                    sha256  505a8463ebbc2e554a4a2a1346124b98b61a64d862c9d6442fd42820ff9c05ea \
+                    size    3435080
 
 depends_lib         port:texlive-basic
 
 texlive.formats      \
-    {1 latex pdftex language.dat {-translate-file=cp227.tcx *latex.ini}} \
-    {1 pdflatex pdftex language.dat {-translate-file=cp227.tcx *pdflatex.ini}} \
     {1 dvilualatex luatex language.dat,language.dat.lua {dvilualatex.ini}} \
+    {1 latex pdftex language.dat {-translate-file=cp227.tcx *latex.ini}} \
     {1 lualatex luahbtex language.dat,language.dat.lua {lualatex.ini}} \
+    {1 pdflatex pdftex language.dat {-translate-file=cp227.tcx *pdflatex.ini}} \
     {1 mptopdf pdftex - {-translate-file=cp227.tcx mptopdf.tex}}
 
 texlive.maps      \
@@ -43,12 +43,5 @@ texlive.maps      \
 
 texlive.binaries    dvilualatex latex lualatex mptopdf pdflatex
 
-pre-activate {
-    # Handle conflicts for TL2020 upgrade
-    if { ![catch {set vers [lindex [registry_active texlive-latex-recommended] 0]}]
-         && ([vercmp [lindex $vers 1] 54586] < 0) } {
-        registry_deactivate_composite texlive-latex-recommended "" [list ports_nodepcheck 1]
-    }
-}
 
 texlive.texmfport

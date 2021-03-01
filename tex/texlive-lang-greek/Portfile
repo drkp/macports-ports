@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-greek
-version             54568
+version             57908
 revision            0
 
 categories          tex
@@ -13,26 +13,26 @@ license             Copyleft Permissive
 description         TeX Live: Greek
 long_description    Support for Greek.
 
-checksums           texlive-lang-greek-54568-run.tar.xz \
-                    rmd160  7ead832b159ea2926d6d06b1593c3f0023462d22 \
-                    sha256  647e7caf2f596739a215e7ca3a49dc2f3b391c7570a41a16d7385850ce4f6f44 \
-                    size    76910564 \
-                    texlive-lang-greek-54568-doc.tar.xz \
-                    rmd160  24c3a288ec4194b0024545559b9c8b0d8481c2ad \
-                    sha256  49f0b66fb7b4130cb08cdd8765a5a5677263b5b6094e154986a3d3a42653eefe \
-                    size    8221288 \
-                    texlive-lang-greek-54568-src.tar.xz \
-                    rmd160  f5d7e0aea6da9b3b5e4165aa80a48a37c090b34a \
-                    sha256  1d2502eadcf00157d07fb107430d846612399559e48378ad56eef1f27c4ba53e \
-                    size    87044
+checksums           texlive-lang-greek-57908-run.tar.xz \
+                    rmd160  cf0cd389ef0118550ff288c82cf32f2df531c110 \
+                    sha256  b9702cecc10f232fdce4fb218b38a648ec20a769fe2b596e2a9f2e7a26f2a19a \
+                    size    77533044 \
+                    texlive-lang-greek-57908-doc.tar.xz \
+                    rmd160  3ffa18e1927098d5968d5256563168ec86e7cca8 \
+                    sha256  5e31f5929fa645e7281de388602889d2ccf6ac125a8e424d10602c731579a1e9 \
+                    size    8900492 \
+                    texlive-lang-greek-57908-src.tar.xz \
+                    rmd160  d33dc266d51eba985d66d189308e24b8db80777e \
+                    sha256  03bded521da8a7bc97fbe750f35e5f9fb88ba0e06e2b004babbc2e5296170528 \
+                    size    87860
 
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {monogreek loadhyph-el-monoton.tex 1 1 {} {hyph-el-monoton.pat.txt} {} {} } \
-    {greek loadhyph-el-polyton.tex 1 1 {polygreek} {hyph-el-polyton.pat.txt} {} {} } \
     {ancientgreek loadhyph-grc.tex 1 1 {} {hyph-grc.pat.txt} {} {} } \
-    {ibycus ibyhyph.tex 2 2 {} {} {} {disabled:8-bit only} }
+    {ibycus ibyhyph.tex 2 2 {} {} {} {disabled:8-bit only} } \
+    {greek loadhyph-el-polyton.tex 1 1 {polygreek} {hyph-el-polyton.pat.txt} {} {} } \
+    {monogreek loadhyph-el-monoton.tex 1 1 {} {hyph-el-monoton.pat.txt} {} {} }
 
 texlive.maps      \
     {MixedMap cbgreek-full.map} \

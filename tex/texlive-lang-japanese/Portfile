@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-japanese
-version             54564
+version             57908
 revision            0
 
 categories          tex
@@ -13,44 +13,44 @@ license             Copyleft Permissive
 description         TeX Live: Japanese
 long_description    Support for Japanese\; additional packages are in collection-langcjk.
 
-checksums           texlive-lang-japanese-54564-run.tar.xz \
-                    rmd160  f347892a5825f9d0c3a6904c12dd34a0aff3cb64 \
-                    sha256  23c35447eddef57cea53d1f378bfc0d58ce410825deab80cbeab8fb4349f28bb \
-                    size    105681176 \
-                    texlive-lang-japanese-54564-doc.tar.xz \
-                    rmd160  7af2910d284ca00fdd64dca3c4eb257f9054f960 \
-                    sha256  28fe665056018ac9e66c03af16ca4b147405ade381b28bd8c7e03561cc8669b0 \
-                    size    20608936 \
-                    texlive-lang-japanese-54564-src.tar.xz \
-                    rmd160  bfed64681eabde896b065854c9a859d892333c46 \
-                    sha256  0297e9fe9e81f9897f1e786f31dcf08d5ac07593eed8de113f44a0192cacd48b \
-                    size    697288
+checksums           texlive-lang-japanese-57908-run.tar.xz \
+                    rmd160  baff288f00ed7257136299c879b65b05b417a070 \
+                    sha256  3e815ded21d8cb9c0b17071a9abcb9cd27661b08a739375d50edf2c1d0f16f6d \
+                    size    105276228 \
+                    texlive-lang-japanese-57908-doc.tar.xz \
+                    rmd160  46627212e2c183334d4076fef6eb61f8bcca4c90 \
+                    sha256  5008bb41b8600418fc8ea597e0aac38d118618374dedac3d791e8513f16a0dd4 \
+                    size    20267724 \
+                    texlive-lang-japanese-57908-src.tar.xz \
+                    rmd160  8d885d7e7cbf85fd1c70f9e8512590fa6c2034ea \
+                    sha256  11860a5849744b7a0eacd98f11a915fd476d4820bdfcc853ae8963ef4a21f8f7 \
+                    size    714032
 
 depends_lib         port:texlive-lang-cjk
 
 texlive.formats      \
     {1 platex eptex language.dat {*platex.ini}} \
     {1 platex-dev eptex language.dat {*platex.ini}} \
-    {1 ptex ptex - {ptex.ini}} \
     {1 eptex eptex language.def {*eptex.ini}} \
+    {1 ptex ptex - {ptex.ini}} \
     {1 uplatex euptex language.dat {*uplatex.ini}} \
     {1 uplatex-dev euptex language.dat {*uplatex.ini}} \
-    {1 uptex uptex - {uptex.ini}} \
-    {1 euptex euptex language.def {*euptex.ini}}
+    {1 euptex euptex language.def {*euptex.ini}} \
+    {1 uptex uptex - {uptex.ini}}
 
 texlive.maps      \
     {Map ascmac.map} \
     {KanjiMap otf-@jaEmbed@.map} \
+    {KanjiMap otf-ko-@koEmbed@.map} \
     {KanjiMap otf-sc-@scEmbed@.map} \
     {KanjiMap otf-tc-@tcEmbed@.map} \
-    {KanjiMap otf-ko-@koEmbed@.map} \
     {KanjiMap otf-up-@jaEmbed@.map} \
     {KanjiMap morisawa5.map} \
     {KanjiMap ptex-@jaEmbed@@jaVariant@.map} \
     {KanjiMap uptex-@jaEmbed@@jaVariant@.map} \
+    {KanjiMap uptex-ko-@koEmbed@.map} \
     {KanjiMap uptex-sc-@scEmbed@.map} \
     {KanjiMap uptex-tc-@tcEmbed@.map} \
-    {KanjiMap uptex-ko-@koEmbed@.map} \
     {Map dgj.map} \
     {Map dmj.map} \
     {Map mc2j.map} \

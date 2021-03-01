@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
-version             54568
+version             57908
 revision            0
 
 categories          tex
@@ -13,17 +13,17 @@ license             Copyleft Permissive
 description         TeX Live: Czech/Slovak
 long_description    Support for Czech/Slovak.
 
-checksums           texlive-lang-czechslovak-54568-run.tar.xz \
-                    rmd160  f61cfbdbe82c3fe3b23ce9a1287f47ba72c51413 \
-                    sha256  33eea0ed04a5c961c0e77e8c35f1d4654502162b26a99707e58e1c1e35a7782a \
-                    size    10917424 \
-                    texlive-lang-czechslovak-54568-doc.tar.xz \
-                    rmd160  2ffa26b37727247bc235d5cde9afa01194a347c8 \
-                    sha256  a92f0c40e53ebaabc614a17a707af15819d7e0aec7c30a4d79eaf2bed0844afb \
-                    size    8917836 \
-                    texlive-lang-czechslovak-54568-src.tar.xz \
-                    rmd160  5a3e0a869eb2c4866b43cfb2e42b9af1c25b044a \
-                    sha256  b62af690273a72b80236d64ce77c13ced39ea173bd29109c37457228f8b59e27 \
+checksums           texlive-lang-czechslovak-57908-run.tar.xz \
+                    rmd160  318adc6cfe691da06a25d2d040c8f88cb92682ec \
+                    sha256  a7f9d8de13c8c3329cdcbd037a9ff6fa24e3589c1e8927ba26d97de43cdf844d \
+                    size    10917268 \
+                    texlive-lang-czechslovak-57908-doc.tar.xz \
+                    rmd160  972f9987000445d88443f39acb83c16ed6d584f7 \
+                    sha256  3f471b03b40ca777671dd8066755864f590a57eb672c7f6b8ac026562207a872 \
+                    size    8918064 \
+                    texlive-lang-czechslovak-57908-src.tar.xz \
+                    rmd160  3a985db4659d4a8426e150574c3e6c6d5e14db83 \
+                    sha256  0b6a464145b263af409eedfcb663469541cf68d08483ce8af229bfb4a8b409fe \
                     size    37284
 
 depends_lib         port:texlive-basic port:texlive-latex
@@ -32,10 +32,10 @@ texlive.formats      \
     {1 cslatex pdftex - {-etex cslatex.ini}} \
     {1 pdfcslatex pdftex - {-etex cslatex.ini}} \
     {1 csplain pdftex - {-etex -enc csplain-utf8.ini}} \
-    {1 pdfcsplain pdftex - {-etex -enc csplain-utf8.ini}} \
     {1 luacsplain luatex - {-etex csplain.ini}} \
-    {1 pdfcsplain xetex - {-etex csplain.ini}} \
-    {1 pdfcsplain luatex - {-etex csplain.ini}}
+    {1 pdfcsplain luatex - {-etex csplain.ini}} \
+    {1 pdfcsplain pdftex - {-etex -enc csplain-utf8.ini}} \
+    {1 pdfcsplain xetex - {-etex csplain.ini}}
 
 texlive.languages      \
     {czech loadhyph-cs.tex 2 3 {} {hyph-cs.pat.txt} {hyph-cs.hyp.txt} {} } \

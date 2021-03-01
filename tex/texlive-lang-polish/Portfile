@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-polish
-version             54568
+version             57908
 revision            0
 
 categories          tex
@@ -13,20 +13,20 @@ license             Copyleft Permissive
 description         TeX Live: Polish
 long_description    Support for Polish.
 
-checksums           texlive-lang-polish-54568-run.tar.xz \
-                    rmd160  00e8ba3d715962d817d255fb6a93084adbce086b \
-                    sha256  802b0279facf4875b33be4ebf5e959879ceb336543fe2336e7cd1d006d692760 \
-                    size    7411136 \
-                    texlive-lang-polish-54568-doc.tar.xz \
-                    rmd160  26cec26e23f80bd041951c3edaa1e3729d70b0c0 \
-                    sha256  d85570ef10752feb8276e3849abe011359e6ff52ef373d041d50cb7ec4a21ade \
-                    size    4813480 \
-                    texlive-lang-polish-54568-src.tar.xz \
-                    rmd160  80730e45aa9dbd9f868e4c93457ecc9f79a73003 \
-                    sha256  8e31a5d87bc9c752519a6bcfa7de752ef662d89cbcd4e9d2bd317d597bf66636 \
-                    size    106796
+checksums           texlive-lang-polish-57908-run.tar.xz \
+                    rmd160  385d6f98a5c33fad9a4dc21474d3f746cafadaf0 \
+                    sha256  175e999558ca2b18763b3ee3f47aa993f1e8358e05d6553ed01aeff85f72f635 \
+                    size    7411020 \
+                    texlive-lang-polish-57908-doc.tar.xz \
+                    rmd160  74a99bcfa97f36ea7ba28ad39bdcfb763b497c70 \
+                    sha256  bae60a9ec4d870bda0337b8c07e15373d6a0158660c1f243e36ab8b37bdc6714 \
+                    size    4813140 \
+                    texlive-lang-polish-57908-src.tar.xz \
+                    rmd160  fc2d97c010b52c94e189c676e73101064af95a25 \
+                    sha256  b19cdf775d8ffc72f7167b55769c0bc74767f3583ae5af141c666bd6aa1b3c0b \
+                    size    106808
 
-depends_lib         port:texlive-latex port:texlive-basic
+depends_lib         port:texlive-basic port:texlive-latex
 
 texlive.formats      \
     {1 mex pdftex mexconf.tex {-translate-file=cp227.tcx *mex.ini}} \
