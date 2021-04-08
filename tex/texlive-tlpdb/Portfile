@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-tlpdb
-version             20210226.57955
+version             2021.58693
 
 categories          tex
 maintainers         {dports @drkp}
@@ -24,9 +24,9 @@ master_sites        https://www.ambulatoryclam.net/texlive/test/ \
 
 use_xz              yes
 
-checksums           rmd160  bad4db4a5f2fc2f85f46a445428fff0b1ca1b722 \
-                    sha256  4471e151ceb1288fcfebb12bf2bc16f3dd1793db4811f00617e21bcc318b6d24 \
-                    size    1309576
+checksums           rmd160  177fb5ecef7957ce606b8fbfc0242d33771b6c70 \
+                    sha256  3720ed9e051e95d066c6d69d96c7600c21b37ba0dd236a7cc97bc3975712490d \
+                    size    1317088
 
 livecheck.type  regex
 livecheck.url   [lindex ${master_sites} 0]
