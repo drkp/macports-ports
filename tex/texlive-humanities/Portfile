@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-humanities
-version             57908
+version             58589
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, social sciences, humanities, etc.
 
-checksums           texlive-humanities-57908-run.tar.xz \
-                    rmd160  fe6eb9a0954c4c821ca4b836deb9d553fb780873 \
-                    sha256  e9d560b3010f72990a50907e0b7e4813e90013e3c74a4d1eeafe7a900cbd7a2e \
-                    size    27737536 \
-                    texlive-humanities-57908-doc.tar.xz \
-                    rmd160  40d48f67dd56faa4480bcfeab767e8fea3962102 \
-                    sha256  f8680af9f3a948cd7fa2c2bfd16a4433eeb7da9b34fa3d48cb5853b5e486d1f1 \
-                    size    26918304 \
-                    texlive-humanities-57908-src.tar.xz \
-                    rmd160  8a98247b9008ce0bde6dabe47819f8ce8c197bdf \
-                    sha256  0d6a97fdaa565b6fa54a946ded7df974761f7054f3b5af7c442a63bc443dd64c \
-                    size    643560
+checksums           texlive-humanities-58589-run.tar.xz \
+                    rmd160  987d5f6100f8da7c494bf2a7084be10fc254dfc4 \
+                    sha256  3bb6fcea2d4496ecd6111f973c5e16550ec9d4b8ca69d33a305c5d16a934cec2 \
+                    size    27754296 \
+                    texlive-humanities-58589-doc.tar.xz \
+                    rmd160  eb6cbad820b7ce786bfc5afca9cdf001c23cdbaa \
+                    sha256  3e2b26433becad15550ce19b7dc31832cd985bf90316cb19e6207ea2d9326e06 \
+                    size    26933088 \
+                    texlive-humanities-58589-src.tar.xz \
+                    rmd160  ed14efa835e79a6caaf0f3c3904bcc3bbeeaf54b \
+                    sha256  d2fddb7f3f6d3a367f2f61872627bf340fa1b0a4722de53b619eeb64e4594a08 \
+                    size    644164
 
 depends_lib         port:texlive-latex
 

@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-formats-extra
-version             57908
+version             58418
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Additional formats
 long_description    Collected TeX `formats', i.e., large-scale macro packages designed to be dumped into .fmt files -- excluding the most common ones, such as latex and context, which have their own package(s). It also includes the Aleph engine and related Omega formats and packages.
 
-checksums           texlive-formats-extra-57908-run.tar.xz \
-                    rmd160  35b299711942421ab9bbf7ceaaa708c7474ae588 \
-                    sha256  11ea9e28cc48bc8fba6c299c9486871b9ecf766d88f0133da77b042f5aefcf70 \
-                    size    5024988 \
-                    texlive-formats-extra-57908-doc.tar.xz \
-                    rmd160  90412259b8ecb7c84c37c1cc9f443f148f633fba \
-                    sha256  511352685b5fbe8886ecac41fcd8a538b44afc643640bbe49443397ad70273ea \
-                    size    2946168 \
-                    texlive-formats-extra-57908-src.tar.xz \
-                    rmd160  3b12160af5e02b26d054d426f64e6c4b5cdefbbd \
-                    sha256  dc56514ea441b8fb1ee062c166a92a67e46967e5ddaa80cf9199412f3a4b2cf8 \
-                    size    478996
+checksums           texlive-formats-extra-58418-run.tar.xz \
+                    rmd160  20af6cb45208ce0817650d9029271d2a93e1b528 \
+                    sha256  55decab98eabce095953aaadb762b6fa0ab7bba0cd0e04adc5904ece9ef41897 \
+                    size    5024784 \
+                    texlive-formats-extra-58418-doc.tar.xz \
+                    rmd160  45b9b7600ea3258ba6d8c378683477317ca14124 \
+                    sha256  8cb1acb29dd1ae63bca95f3990f8f9edfaefda2c4e8f0d688318d849de6f9beb \
+                    size    2945560 \
+                    texlive-formats-extra-58418-src.tar.xz \
+                    rmd160  3a0ea38c48c0a3d600e3e041f9af0a8a9b1604cd \
+                    sha256  7e5e7ef99a5b50149169dea875ede770b7d7d602ef6217ad1816cafb2d6ab5f2 \
+                    size    478992
 
 depends_lib         port:texlive-basic port:texlive-latex
 

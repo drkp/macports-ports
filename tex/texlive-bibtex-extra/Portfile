@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bibtex-extra
-version             57924
+version             58661
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: BibTeX additional styles
 long_description    Additional BibTeX styles and bibliography data(bases), notably including BibLaTeX.
 
-checksums           texlive-bibtex-extra-57924-run.tar.xz \
-                    rmd160  16c576291e72dd83a857fe98a2babcf5f6b8eb2f \
-                    sha256  ab9a5884579089ea2310c46afe52864c66216bf36b521841c1f731cdbc336219 \
-                    size    69435492 \
-                    texlive-bibtex-extra-57924-doc.tar.xz \
-                    rmd160  8dd0ee6c4a4e3edeb17206612a0fcc02dfed15b2 \
-                    sha256  129e6b46b6ff428d0d6e5dd7c73f9f8f5aabdcdce6fb100b94ff892f8dcbb0ac \
-                    size    63777640 \
-                    texlive-bibtex-extra-57924-src.tar.xz \
-                    rmd160  44d2f1f29dc96715028286ede0e0452ba2d6069b \
-                    sha256  64c8482959ade230b84a1da8910147850698daaf5ed454295bac07a7575904e8 \
-                    size    2394992
+checksums           texlive-bibtex-extra-58661-run.tar.xz \
+                    rmd160  95e7be37b135401ed9f8e9399b32dc0f5b45cc85 \
+                    sha256  ab3341b2a936ebb7ca1fbd7549b723c773d3b712c935c346e1c5fb5bc999433a \
+                    size    69818624 \
+                    texlive-bibtex-extra-58661-doc.tar.xz \
+                    rmd160  0e1f3055c80eda14efd91264c9276a0486d55872 \
+                    sha256  8056a996e738778176fffb782b9fcc705560e77f81a099945428af8cb009024a \
+                    size    64156264 \
+                    texlive-bibtex-extra-58661-src.tar.xz \
+                    rmd160  86cd88db7ef6cbc99d8134816c90153ef4dc47df \
+                    sha256  ff48400a5b135c821b2d4ac333e28e57d4f415e3a0e9101a8634c78ec311f0ef \
+                    size    2394552
 
 depends_lib         port:texlive-latex
 

@@ -14,17 +14,17 @@ description         TeX Live: Arabic
 long_description    Support for Arabic and Persian.
 
 checksums           texlive-lang-arabic-57692-run.tar.xz \
-                    rmd160  7a7ed50db532bf91c7a68e057996b82d8fdd8d62 \
-                    sha256  abb654da8c20bf810ff4e97c3cb28f6aac3dc6c3294ff9ce11b7967e5a64e5d8 \
-                    size    25466528 \
+                    rmd160  aadbfc98268771e027763fc0f2b9e0641cdec517 \
+                    sha256  63506de45061d17320e113c2837d2b59f481b8c18288ee7453e61aa4291784b2 \
+                    size    25466128 \
                     texlive-lang-arabic-57692-doc.tar.xz \
-                    rmd160  b99b46d73f7dc356a0a3d04bd611e2345f8f93a1 \
-                    sha256  da5f3b143691216445e638fece1cb8399e0c97b7a3b74e2b26707a89b64c83e0 \
-                    size    20092264 \
+                    rmd160  b22916f945397de8751ebfdfcfa58063b9862040 \
+                    sha256  edfb41196866921fa2d802a569161431ef6725abb9970cca735d24c8b0fe6a88 \
+                    size    20091960 \
                     texlive-lang-arabic-57692-src.tar.xz \
-                    rmd160  df40a38d4cdb335f6e1e14b70f775613e8b3b488 \
-                    sha256  09e6934a5237aa42f3b436fbc16c90a41d4320c8d0f682cbce0d9b389e3f9936 \
-                    size    257480
+                    rmd160  c6941cacabda62807b83b8a455ad1134383ebff2 \
+                    sha256  8c878fbff560731632be7c888bf369fda72bc9c4ad9656e8962fd045e5bf7680 \
+                    size    257516
 
 depends_lib         port:texlive-basic
 

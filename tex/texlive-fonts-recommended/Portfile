@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-recommended
-version             57866
+version             58637
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Recommended fonts
 long_description    Recommended fonts, including the base 35 PostScript fonts, Latin Modern, TeX Gyre, and T1 and other encoding support for Computer Modern, in outline form.
 
-checksums           texlive-fonts-recommended-57866-run.tar.xz \
-                    rmd160  75727a2a6c2b52ae9659ddda1a58d8d00ebfa017 \
-                    sha256  98c13b15e8da9694cf8f7e4decde651e1082d00261d36a582b515b69727861d9 \
-                    size    113922720 \
-                    texlive-fonts-recommended-57866-doc.tar.xz \
-                    rmd160  adc47eeaf3fbaeb190902fff6fdb40d3a7f64d18 \
-                    sha256  48a4e63b7d017d5cb75ab071fc961aed8e8d99a3e727d97f5325cd37a056f8fd \
-                    size    13956932 \
-                    texlive-fonts-recommended-57866-src.tar.xz \
-                    rmd160  0a034b8d22c59765aa4fa93c09298065360fce64 \
-                    sha256  a19f79d37888ba22218971f10979de4a616bd5489865e94623e7fd42c5aed9f8 \
-                    size    6376824
+checksums           texlive-fonts-recommended-58637-run.tar.xz \
+                    rmd160  6ece2565778004964bc59837089aa14bc1c6dea6 \
+                    sha256  b541a85e71675d6543bbd57f48951d39e9cc1d89643288052be8c00d8dcee4aa \
+                    size    109108204 \
+                    texlive-fonts-recommended-58637-doc.tar.xz \
+                    rmd160  a92666cd54689805d792b4f89424136500ccee07 \
+                    sha256  c28d35ab854006b1f2cbd0a19efbcef619bbf7e784a9bf19ccf916e43c90cdc7 \
+                    size    13957204 \
+                    texlive-fonts-recommended-58637-src.tar.xz \
+                    rmd160  bb7bf578165a66a463e4f459460bd8a939357397 \
+                    sha256  75ed3ce376dcba5b09e6430c8f821653cf8ae964c2a2b5204f121a38323847d1 \
+                    size    1564188
 
 depends_lib         port:texlive-basic
 

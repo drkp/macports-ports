@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             57908
+version             58652
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Other languages
 long_description    Support for languages not otherwise listed, including Indic, Thai, Vietnamese, Hebrew, Indonesian, African languages, and plenty more. The split is made simply on the basis of the size of the support, to keep both collection sizes and the number of collections reasonable.
 
-checksums           texlive-lang-other-57908-run.tar.xz \
-                    rmd160  879db95b79a2869f235b34f4bcbe43f576ef4f8b \
-                    sha256  6189f02ecaf0a6fd9b5a937fe61dc679c76cb413e26c87f4d898c2dad6c4e2dd \
-                    size    45131484 \
-                    texlive-lang-other-57908-doc.tar.xz \
-                    rmd160  355a6829a6b88b3463c3a255075b5fd600c651e8 \
-                    sha256  095a1738dcc753cecb391cb7cfcf8a27944ad9890bdd461e6949099d9c1ea215 \
-                    size    11462324 \
-                    texlive-lang-other-57908-src.tar.xz \
-                    rmd160  78934dab7075313476ba3834b81b898e08233958 \
-                    sha256  2ac9d2127b56cceff7c71eada58163047a817a80e82e92c16f66f96a611a498d \
-                    size    10205984
+checksums           texlive-lang-other-58652-run.tar.xz \
+                    rmd160  28610aeb5fff428a9e1c859ec963a6c187e7eb31 \
+                    sha256  7326a04429c2061f1363a0fb8be33cd3dbfd3157299382435ac96eee30a56436 \
+                    size    45136480 \
+                    texlive-lang-other-58652-doc.tar.xz \
+                    rmd160  78cf1ddecc459c13ab63df81503dbbdad0bfca39 \
+                    sha256  0cdeca33a179b6a8bce65c1bd4528c83b5a7effb57c1468a9c2805744b9c082d \
+                    size    11466936 \
+                    texlive-lang-other-58652-src.tar.xz \
+                    rmd160  b3f9cbe5bc086079b4697181e88c8be6829cad27 \
+                    sha256  086e7eb868d389e973dc9dea877f704475ad2fc5ee40c298a5a7db05f0bfb62f \
+                    size    10207300
 
 depends_lib         port:texlive-basic
 

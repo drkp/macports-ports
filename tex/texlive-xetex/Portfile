@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-xetex
-version             57908
+version             58633
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: XeTeX and packages
 long_description    Packages for XeTeX, the Unicode/OpenType-enabled TeX by Jonathan Kew, http://tug.org/xetex.
 
-checksums           texlive-xetex-57908-run.tar.xz \
-                    rmd160  31c2ec895711b52e91dcb66b9273f2bfe0ca23a9 \
-                    sha256  4686bdcf7a0786c314ca44cf6e76bd13fa12b569bce42c306d6c32d772833251 \
-                    size    12559728 \
-                    texlive-xetex-57908-doc.tar.xz \
-                    rmd160  76a14a40ac28ac779892b407e9f099f85ecac255 \
-                    sha256  90d172594a95367ee80fd46caa3127659318f9a4fa00b90eeee89b1446930b54 \
-                    size    11600304 \
-                    texlive-xetex-57908-src.tar.xz \
-                    rmd160  6351aecff22ebeba662fe244e55dd054d5483b24 \
-                    sha256  054633eee194face634ef815197da7dcb5dd338bda5db89ab6e4453e9a82d649 \
-                    size    140480
+checksums           texlive-xetex-58633-run.tar.xz \
+                    rmd160  47f3174e1fbaeab7d7a6713e7ac5612d9fce7352 \
+                    sha256  852ff774fb7751c18291c9b08d88cad9f1b32999a7be7f5ac5ba63898479a869 \
+                    size    12766200 \
+                    texlive-xetex-58633-doc.tar.xz \
+                    rmd160  6db8cfeb35e2e8ec0fe417bd4c33d28dbc2095fc \
+                    sha256  329a54e130d67311214c9f3be2b1e5c3739f61f11eac532aa2ad0ae67c0d27b1 \
+                    size    11808712 \
+                    texlive-xetex-58633-src.tar.xz \
+                    rmd160  7758bdbc417fbb8a621d388bee45847fd10f7e6c \
+                    sha256  3aca06c475e93f8a0864eb6c6cd5f349efc267aceca9ecbf915de55554bb7f0a \
+                    size    140592
 
 depends_lib         port:texlive-basic
 

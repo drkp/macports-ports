@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fonts-extra
-version             57801
+version             58661
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Additional fonts
 long_description    Additional fonts
 
-checksums           texlive-fonts-extra-57801-run.tar.xz \
-                    rmd160  00262ef08b12f4e94a6063b7834157034ce78863 \
-                    sha256  e1f7b2629f242ade01ee9920b857bdb71c2969cbcb33f5b1dbdf810a764e46d9 \
-                    size    660729916 \
-                    texlive-fonts-extra-57801-doc.tar.xz \
-                    rmd160  e11d3c72903a43aa2482ed226bf6e9bcb4a53205 \
-                    sha256  5632179497f4ae22cb87720b45d7797f132c27458837165430404d2d818ddd42 \
-                    size    104298008 \
-                    texlive-fonts-extra-57801-src.tar.xz \
-                    rmd160  e70d8378b16988dedc5ae415c663e0406098c6b2 \
-                    sha256  7174f6ce6bcc6e783a6a7dc47a5dedfc56c24d6658025cf54582d3ec53c58f68 \
-                    size    7715544
+checksums           texlive-fonts-extra-58661-run.tar.xz \
+                    rmd160  729255c6603ea21f1738c46cabe33c0a5620fb7a \
+                    sha256  597996819d2fb346fec4bbf442b51b0d4c36622df601863cde7d63dfa57fac19 \
+                    size    664777728 \
+                    texlive-fonts-extra-58661-doc.tar.xz \
+                    rmd160  1419cae12a456d79a876adb742be1bf4367408ba \
+                    sha256  3bf995c687a20d35c9e1f8f8a58629e5698146546a9e5db857d6aaf1bd5d8fec \
+                    size    104469816 \
+                    texlive-fonts-extra-58661-src.tar.xz \
+                    rmd160  51e054e564f7a34a05dec694973bdf3d182098b9 \
+                    sha256  c9cb29ad2887ad9d6c964abc8cd8d7954fff32dd94235eb543490c5d50f119ee \
+                    size    9272000
 
 depends_lib         port:texlive-basic
 
@@ -33,6 +33,7 @@ texlive.maps      \
     {Map OrnementsADF.map} \
     {Map ArrowsADF.map} \
     {Map BulletsADF.map} \
+    {Map aesupp.map} \
     {Map Alegreya.map} \
     {Map AlphaSlabOne.map} \
     {Map AlgolRevived.map} \
@@ -230,7 +231,6 @@ texlive.maps      \
     {Map paratype-type1.map} \
     {Map phaistos.map} \
     {MixedMap pigpen.map} \
-    {Map Play.map} \
     {Map PlayfairDisplay.map} \
     {Map plex.map} \
     {Map plimsoll.map} \

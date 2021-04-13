@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex-recommended
-version             57908
+version             58666
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX recommended packages
 long_description    A collection of recommended add-on packages for LaTeX which have widespread use, and the release candidate formats latex-dev, etc.
 
-checksums           texlive-latex-recommended-57908-run.tar.xz \
-                    rmd160  79c066502fe54ebaa3c3794a6b3bc9dd697c3862 \
-                    sha256  8ce4cd4e089907ebdee9907041501a5f27c8dce524160354889fd29a08c646c5 \
-                    size    61928892 \
-                    texlive-latex-recommended-57908-doc.tar.xz \
-                    rmd160  d5060d83f22cf019a4b9f1ef11d01223a7b09ca6 \
-                    sha256  70788f4127dfed7ee217e5a09b3105a84f34d9753cf9b0c6d900348656571539 \
-                    size    44998180 \
-                    texlive-latex-recommended-57908-src.tar.xz \
-                    rmd160  a580145aecc6d7dd23129adbcd00e76bbe55b2a1 \
-                    sha256  46aba93f87f0c3bbabe8c897cf5cf8caee4ab20f0d573ebf78904a20b8840fb7 \
-                    size    2402856
+checksums           texlive-latex-recommended-58666-run.tar.xz \
+                    rmd160  6e761fc32e482f43161b5199b7d49cc4ff013192 \
+                    sha256  9f12a9f906b7e3616fb021e54e5921a6ea48b19bef5ff535a37f04ac506185c6 \
+                    size    62371168 \
+                    texlive-latex-recommended-58666-doc.tar.xz \
+                    rmd160  3d934d33c2e9a24142d0bc0c40155d56b04543b3 \
+                    sha256  23ef6e25e211de8e8b48892b99df07ad9307ae99bf88fa65d3e54792f1ba871d \
+                    size    45583840 \
+                    texlive-latex-recommended-58666-src.tar.xz \
+                    rmd160  afa237c31d2fc2ed929614c20913c7eed01f21b7 \
+                    sha256  72087b11991ac87774fdbfcf2983a5e0d8e1ebb456c40a6a40330a718e39cfb8 \
+                    size    2415304
 
 depends_lib         port:texlive-latex
 

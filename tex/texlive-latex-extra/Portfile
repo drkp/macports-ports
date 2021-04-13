@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex-extra
-version             57923
+version             58668
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX additional packages
 long_description    A very large collection of add-on packages for LaTeX.
 
-checksums           texlive-latex-extra-57923-run.tar.xz \
-                    rmd160  f71b22532310d11b1e6001f02502ffb97974859c \
-                    sha256  78029ef13c9484ec2945d1f5b944109c77fdcf275d9ca164ad0f727c0a92ea0e \
-                    size    565621560 \
-                    texlive-latex-extra-57923-doc.tar.xz \
-                    rmd160  56e68b3c52faa012d898ef51e2c3a7eb0e38a6f7 \
-                    sha256  49f1ee28a324e593feeae4b7842912901e92cbb1b88b60ab5c51ef2efbc3be1d \
-                    size    538756440 \
-                    texlive-latex-extra-57923-src.tar.xz \
-                    rmd160  20a711158bd2d921c6215adb1d47a08142119a76 \
-                    sha256  f686071c07500ae75b53f35056c1b4c3f4b0115b8d6ad4f5f8b2583857aeda59 \
-                    size    13094024
+checksums           texlive-latex-extra-58668-run.tar.xz \
+                    rmd160  0e74ac1bf26685dc7f3a967221c6aa69e2329689 \
+                    sha256  31440d89e0ad306eeaa7c5815dcac7cc9446128f70a1328251b9934238024532 \
+                    size    573499988 \
+                    texlive-latex-extra-58668-doc.tar.xz \
+                    rmd160  51725a485ab0aaf530423416b77ea768007f459f \
+                    sha256  cdf2141c7a15822795748b51c5fcbbb10c6afb148cf45aeb2ee76016c6682cd0 \
+                    size    546432696 \
+                    texlive-latex-extra-58668-src.tar.xz \
+                    rmd160  eba89959ae1c20eb2f25e7c5efb2833e7e0d1c76 \
+                    sha256  ba55b81e1cbc591adad5559d167e380833a2cf8ab973635385330af4f8a910ef \
+                    size    13145172
 
 depends_lib         port:texlive-latex-recommended port:texlive-pictures
 

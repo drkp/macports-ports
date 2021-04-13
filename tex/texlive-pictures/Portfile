@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             57908
+version             58558
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Graphics, pictures, diagrams
 long_description    Including TikZ, pict, etc., but MetaPost and PStricks are separate.
 
-checksums           texlive-pictures-57908-run.tar.xz \
-                    rmd160  bad74ce64535bbb90e58110f4a52f24b57ce828a \
-                    sha256  bfb7f482a82e41a8ee9e1014a5b3e77fd5d60a69bd31384722a24931452705a3 \
-                    size    181683248 \
-                    texlive-pictures-57908-doc.tar.xz \
-                    rmd160  aef707a22e26a5c8f069178cd4262d0ca4369431 \
-                    sha256  2acbbc2bc92baf2906515314ab01df9a92e101806e22f69aa74aa4e178000043 \
-                    size    172384592 \
-                    texlive-pictures-57908-src.tar.xz \
-                    rmd160  d05cbd2f6dfc65280236c6ec590156610ba0b71b \
-                    sha256  80660e125b4220662e313401c7d19f8a91869907c55bab0bf966b5d4d2fa0536 \
-                    size    2625952
+checksums           texlive-pictures-58558-run.tar.xz \
+                    rmd160  3975ce89975d58aeb469b8f08602f712f10f8b23 \
+                    sha256  5a76acc11c32d4c7b282a2bac3156a97608b16008a89985d83b9e3b50c86804b \
+                    size    200120940 \
+                    texlive-pictures-58558-doc.tar.xz \
+                    rmd160  c1d5335dc566bd4aa19f134a611aaf89f675f341 \
+                    sha256  8ec57019edbd75981b85a5722982d618a586191290139a39dad92b0e43585d44 \
+                    size    190632612 \
+                    texlive-pictures-58558-src.tar.xz \
+                    rmd160  172357285ecfafd49376ed630dca508a29ad3404 \
+                    sha256  a53789335c028039cfa8daa6e5a132de36833602a5fa1e6e79e53690b48227d2 \
+                    size    2625968
 
 depends_lib         port:texlive-basic
 

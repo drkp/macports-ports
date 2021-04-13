@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-german
-version             57866
+version             58652
 revision            0
 
 categories          tex
@@ -13,24 +13,24 @@ license             Copyleft Permissive
 description         TeX Live: German
 long_description    Support for German.
 
-checksums           texlive-lang-german-57866-run.tar.xz \
-                    rmd160  085ee5f7d513cc9456a2c538b1070359664a25f2 \
-                    sha256  627cfa32a88a3fbf0746301cf162cd258433603f9b7d049cdf42a5724c97ae7f \
-                    size    20123688 \
-                    texlive-lang-german-57866-doc.tar.xz \
-                    rmd160  84680d6ae93db225ddd94864d63955eb6dac040b \
-                    sha256  e5b544774010bc092f16bd410c26641c07b5ed5f4149783116545612969f3f47 \
-                    size    19026444 \
-                    texlive-lang-german-57866-src.tar.xz \
-                    rmd160  a08bd3713e3e510651b52cb61da2d2b6db04d46c \
-                    sha256  a303686fa6ddd3044a7eabaefb950e60b00ee955100d336fc49d8604f246e3eb \
-                    size    129380
+checksums           texlive-lang-german-58652-run.tar.xz \
+                    rmd160  3fbb44fbaeb7a5d508429afb2d127419eebbd7c2 \
+                    sha256  cfba8c7ba966546c50505bb2a153e3a63897aefa82f025c5ed8d740e6919fee9 \
+                    size    20423556 \
+                    texlive-lang-german-58652-doc.tar.xz \
+                    rmd160  cfb5e4bb7941129ea6608a56522b0d9737d4927a \
+                    sha256  db481882425ab8f122186f59fc28c1e8a21699576807ecdd72c37b4472f9f37c \
+                    size    19253416 \
+                    texlive-lang-german-58652-src.tar.xz \
+                    rmd160  ad20b594f495ffbdd2312771d0a1752f004bac76 \
+                    sha256  d3a33ff6d6fcc5deedf65ae3f919a8e5503830a2a4c69995f8009a9bd14a6e93 \
+                    size    129480
 
 depends_lib         port:texlive-basic
 
 texlive.languages      \
-    {german-x-2019-04-04 dehypht-x-2019-04-04.tex 2 2 {german-x-latest} {hyph-de-1901.pat.txt} {} {} } \
-    {ngerman-x-2019-04-04 dehyphn-x-2019-04-04.tex 2 2 {ngerman-x-latest} {hyph-de-1996.pat.txt} {} {} } \
+    {german-x-2021-02-26 dehypht-x-2021-02-26.tex 2 2 {german-x-latest} {hyph-de-1901.pat.txt} {} {} } \
+    {ngerman-x-2021-02-26 dehyphn-x-2021-02-26.tex 2 2 {ngerman-x-latest} {hyph-de-1996.pat.txt} {} {} } \
     {german loadhyph-de-1901.tex 2 2 {} {hyph-de-1901.pat.txt} {} {} } \
     {ngerman loadhyph-de-1996.tex 2 2 {} {hyph-de-1996.pat.txt} {} {} } \
     {swissgerman loadhyph-de-ch-1901.tex 2 2 {} {hyph-de-ch-1901.pat.txt} {} {} }

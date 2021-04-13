@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
-version             57908
+version             58609
 revision            0
 
 categories          tex
@@ -13,17 +13,17 @@ license             Copyleft Permissive
 description         TeX Live: Czech/Slovak
 long_description    Support for Czech/Slovak.
 
-checksums           texlive-lang-czechslovak-57908-run.tar.xz \
-                    rmd160  318adc6cfe691da06a25d2d040c8f88cb92682ec \
-                    sha256  a7f9d8de13c8c3329cdcbd037a9ff6fa24e3589c1e8927ba26d97de43cdf844d \
-                    size    10917268 \
-                    texlive-lang-czechslovak-57908-doc.tar.xz \
-                    rmd160  972f9987000445d88443f39acb83c16ed6d584f7 \
-                    sha256  3f471b03b40ca777671dd8066755864f590a57eb672c7f6b8ac026562207a872 \
-                    size    8918064 \
-                    texlive-lang-czechslovak-57908-src.tar.xz \
-                    rmd160  3a985db4659d4a8426e150574c3e6c6d5e14db83 \
-                    sha256  0b6a464145b263af409eedfcb663469541cf68d08483ce8af229bfb4a8b409fe \
+checksums           texlive-lang-czechslovak-58609-run.tar.xz \
+                    rmd160  fe1c97799ac10df611ca85cb91cc06a0eb499dad \
+                    sha256  ba919a7fcd9a55067062131cd6d7234ec2753adf812d1311baf39bc22cda50eb \
+                    size    10917472 \
+                    texlive-lang-czechslovak-58609-doc.tar.xz \
+                    rmd160  34c285d4fb86b64346395ea72df17a82455102f2 \
+                    sha256  17d2a50e3b968a94b16f5b98c5739f8bd8130dbc2ee833603daa1f26f4e7a34d \
+                    size    8918284 \
+                    texlive-lang-czechslovak-58609-src.tar.xz \
+                    rmd160  d023bdc9c723803baabad669d7b70a4ed1958c8e \
+                    sha256  06427b299c9188c5b0379ff2e1766507f502b5849c5704f2de7d19b0849fc443 \
                     size    37284
 
 depends_lib         port:texlive-basic port:texlive-latex
@@ -47,5 +47,6 @@ texlive.maps      \
 
 texlive.binaries    cslatex csplain luacsplain pdfcslatex pdfcsplain vlna
 
+depends_lib-append port:texlive-luatex
 
 texlive.texmfport
