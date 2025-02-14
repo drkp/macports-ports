@@ -133,7 +133,7 @@ proc texlive.texmfport {} {
     supported_archs noarch
     installs_libs   no
 
-    master_sites    https://www.ambulatoryclam.net/texlive/ \
+    master_sites    https://www.ambulatoryclam.net/texlive/test/ \
                     https://giraffe.cs.washington.edu/texlive/ \
                     https://alpaca.cs.washington.edu/texlive/
     use_xz          yes
