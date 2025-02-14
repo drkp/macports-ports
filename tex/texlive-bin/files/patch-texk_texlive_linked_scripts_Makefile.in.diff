@@ -28,7 +28,7 @@
 -@WIN32_FALSE@	    echo "creating link '$$target' -> '$$REL/texmf-dist/scripts/$$s'";\
 -@WIN32_FALSE@	    $(LN_S) $$REL/texmf-dist/scripts/$$s $$target || exit 1; \
 +@WIN32_FALSE@	    echo "creating link '$$target' -> '@@TEXMFDIST@@/scripts/$$s'";\
-+@WIN32_FALSE@	    $(LN_S) @@TEXMFDIST@@/texmf-dist/scripts/$$s $$target || exit 1; \
++@WIN32_FALSE@	    $(LN_S) @@TEXMFDIST@@/scripts/$$s $$target || exit 1; \
  @WIN32_FALSE@	    echo texmf-dist/scripts/$$s $$target >>$(linkfile); \
  @WIN32_FALSE@	  done && \
  @WIN32_FALSE@	  for s in $(bin_links); do \
