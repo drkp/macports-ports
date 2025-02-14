@@ -9,8 +9,7 @@ PortGroup       texlive 1.0
 PortGroup       muniversal 1.1
 
 name            texlive-bin
-version         2024.70613
-revision        1
+version         2025.73953
 
 categories      tex
 maintainers     {dports @drkp}
@@ -33,12 +32,12 @@ license         Copyleft Permissive LGPL-2.1+ BSD
 # download (and configure) time, it omits a number of libraries and
 # utilities that we don't build. However, the port will still work
 # with an unmodified texlive distfile.
-master_sites    https://www.ambulatoryclam.net/texlive/ \
+master_sites    https://www.ambulatoryclam.net/texlive/test/ \
                 https://alpaca.cs.washington.edu/texlive/ \
                 https://giraffe.cs.washington.edu/texlive/
 
 use_xz          yes
-distname        texlive-source-${version}-stripped
+distname        texlive-source-${version}
 worksrcdir      ${distname}
 
 # ICU requires C++17
@@ -49,14 +48,14 @@ compiler.cxx_standard \
 set tlpkgdistname   tlpkg-TeXLive-${version}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-2024.70613-stripped.tar.xz \
-                    rmd160  80f75f45091d4517ef56e5e269e1692bcd5da828 \
-                    sha256  84719168dce6162af47ea50c5c942c1f623a2d0c71406c2470bd63881a8d98bc \
-                    size    23945116 \
-                    tlpkg-TeXLive-2024.70613.tar.xz \
-                    rmd160  5b3da9bcfba628930bdf13f023b755bf1a9af534 \
-                    sha256  751a4b845ea9bf0d3640f2398b7adedc2294d30c90a9027b462739544c308138 \
-                    size    118388
+checksums           texlive-source-2025.73953.tar.xz \
+                    rmd160  9c5b46d99186368a98f50a0ca0bfd59477fb380c \
+                    sha256  20f132c5f159a354b5b9f053ec1af0b4924b9ca1e9d828d1a7b668163f3d5322 \
+                    size    87933472 \
+                    tlpkg-TeXLive-2025.73953.tar.xz \
+                    rmd160  d39e358833ea215aba8b0ae7f1275177ef4f7e71 \
+                    sha256  ebd6fc10eea40bf1ce4c214c6e12a54ae4ebf64e5a9083d86e5a632afe195d1e \
+                    size    119360
 
 depends_lib     port:fontconfig \
                 port:freetype \
