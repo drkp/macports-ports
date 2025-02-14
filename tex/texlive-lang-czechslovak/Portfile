@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-czechslovak
-version             69910
+version             73908
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Czech/Slovak
 long_description    Support for Czech/Slovak.
 
-checksums           texlive-lang-czechslovak-69910-run.tar.xz \
-                    rmd160  c9e4970e6b6856ee9d43d8f9cab5067bc10f4da0 \
-                    sha256  45b77f1377ff60ada489e875dedc06ded48487dc9798db8cab9e7435d136a7aa \
-                    size    10961188 \
-                    texlive-lang-czechslovak-69910-doc.tar.xz \
-                    rmd160  f90b547291ad589c471f4f926441b546cf3bd9a4 \
-                    sha256  41082d1bd2d2dbb6e4fd4b6dd44ad11fef5c6c345d43977584263bec653443b6 \
-                    size    8968524 \
-                    texlive-lang-czechslovak-69910-src.tar.xz \
-                    rmd160  e331b860d48dc6ad97f4d4f9110ced08865cce4c \
-                    sha256  b1ca291ab7fa6881edf49ce69a732ce1ee12ab77cc10e57b039e27cc6113c182 \
-                    size    37064
+checksums           texlive-lang-czechslovak-73908-run.tar.xz \
+                    rmd160  e50b73ec7030ee0a63737872127b32ddd95959f6 \
+                    sha256  bef390ee9dbe3fb2dfbf9677b3d9a1676f7f128db9e09def1291df164d5a9763 \
+                    size    1977188 \
+                    texlive-lang-czechslovak-73908-doc.tar.xz \
+                    rmd160  efe7eb72139e73c513177fc5f624a436a4ffb963 \
+                    sha256  f4d92d1da8fe79427e7702395b8f96272a1afa436f52a68b1b744053ac44a883 \
+                    size    8925128 \
+                    texlive-lang-czechslovak-73908-src.tar.xz \
+                    rmd160  fa0773353c86f6cfd371a9143523ffb23ffc582f \
+                    sha256  daac9f1a2d94bd6aa8b5dcdd14103b493058483500d94b509ca7f35a86c63866 \
+                    size    37332
 
 depends_lib         port:texlive-basic port:texlive-latex
 

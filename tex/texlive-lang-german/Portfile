@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-german
-version             70506
+version             73410
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: German
 long_description    Support for German.
 
-checksums           texlive-lang-german-70506-run.tar.xz \
-                    rmd160  0fd63bbf82195909b6e8d0f12617da1da69ecf33 \
-                    sha256  d8237b346c33ecdcb5e93ed5a38a426ff2d3cf562a944b0aaee2e3f03de9f0de \
-                    size    21463172 \
-                    texlive-lang-german-70506-doc.tar.xz \
-                    rmd160  e3eb1724e8fc00dc455829ed5c0fac5436d535f7 \
-                    sha256  9f9dca9d56d48ae1c7f44d5713ce01706a6921edcbef5b855cb38507f8e86d75 \
-                    size    19739780 \
-                    texlive-lang-german-70506-src.tar.xz \
-                    rmd160  0749ae1ee059d117b8f16be8f2f191cbdef46b91 \
-                    sha256  3032da17898832283dc1d3f02e1c3c39eb245836f2a4ff3b30d89cacff8a9170 \
-                    size    130480
+checksums           texlive-lang-german-73410-run.tar.xz \
+                    rmd160  07ba70bf9e400dd67f3d1d0bc621581f4e796dd5 \
+                    sha256  80b8f03332336f382668d108bdbbeeb112224c93a9e091dbe0a73c25fd7c3ea8 \
+                    size    1612844 \
+                    texlive-lang-german-73410-doc.tar.xz \
+                    rmd160  208e4239810f6c7c07376be279a879a63bf5b3ae \
+                    sha256  de497ec4b4a10be0a42512dd04cb8042e4142269de50ba533e5313bbf4acc257 \
+                    size    19615884 \
+                    texlive-lang-german-73410-src.tar.xz \
+                    rmd160  69e1a7c0e405fc0ca80563b97c6c0e75789974a3 \
+                    sha256  18791df647a25266c2a6f2fa42291fa80b988f51692aa836587384260931051b \
+                    size    130832
 
 depends_lib         port:texlive-basic
 

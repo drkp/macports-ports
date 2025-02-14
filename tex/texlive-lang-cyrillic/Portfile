@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cyrillic
-version             69727
+version             73410
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Cyrillic
 long_description    Support for Cyrillic scripts (Bulgarian, Russian, Serbian, Ukrainian), even if Latin alphabets may also be used.
 
-checksums           texlive-lang-cyrillic-69727-run.tar.xz \
-                    rmd160  f17b6a4bdfd390b4e8a5cae4d350e56e51cd47b2 \
-                    sha256  85505d5c45b57b3392e144ea428a25ca21a2ed1371c287ee31d7dcca50c35b48 \
-                    size    20877808 \
-                    texlive-lang-cyrillic-69727-doc.tar.xz \
-                    rmd160  934c5931f9a4a7bd5e5adaa3c6d1c1227a5dcaae \
-                    sha256  bbfef92993f05a8ef9c62ab8f239e3a98e5e12d688e0ae431af79df84990cdd7 \
-                    size    17639856 \
-                    texlive-lang-cyrillic-69727-src.tar.xz \
-                    rmd160  07bdbeff35dc0e79b6e46878838d6e45419a62bc \
-                    sha256  88106c0b3b3d7ca2e713f7fc4e2715427cbc5d15c1fc7118c1e230e162b60702 \
-                    size    202196
+checksums           texlive-lang-cyrillic-73410-run.tar.xz \
+                    rmd160  c7233513f8137ee0a1f7325b095e0c19d9aa3795 \
+                    sha256  70b5b76791dc4202c1819184cc1771a36a7bc532fd01a177dc0c015d1d93155a \
+                    size    3097428 \
+                    texlive-lang-cyrillic-73410-doc.tar.xz \
+                    rmd160  f307ecc0fc9314d42073a0d1c16914b16805e0b5 \
+                    sha256  0ae5d7baa945659abaef24df25dee4814efd9c0d2209c2040751aac07305f7b7 \
+                    size    17434288 \
+                    texlive-lang-cyrillic-73410-src.tar.xz \
+                    rmd160  ff7c13ac40acf3a792a9fc3dc1de8920f2a98f63 \
+                    sha256  6173b492bb2628751305aa94e9ff53e3a16e16b3d647b897952ba2c5df42c5c6 \
+                    size    201992
 
 depends_lib         port:texlive-basic port:texlive-latex
 

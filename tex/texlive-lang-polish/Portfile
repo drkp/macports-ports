@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-polish
-version             67718
+version             73410
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Polish
 long_description    Support for Polish.
 
-checksums           texlive-lang-polish-67718-run.tar.xz \
-                    rmd160  52833b88963aecf7d7ebf5f2a6b14645b49db897 \
-                    sha256  c77702c66c9ff85804acf19538ce2f0bea1c150f56f794aab03b48850cd55f6a \
-                    size    8703356 \
-                    texlive-lang-polish-67718-doc.tar.xz \
-                    rmd160  74ca0feed606ebf0f3e580db01028165083c7581 \
-                    sha256  5ead8fb83a66413eadd6a948bb6cb4d51da2d712a4518ff0a2e22600901bf0e3 \
-                    size    6105552 \
-                    texlive-lang-polish-67718-src.tar.xz \
-                    rmd160  45e4d8dba2bd69f3ec0cf3e7be614d7dbd0bf6f2 \
-                    sha256  c20ddd75df0a8953da14ccdfc83d7487a94023a352cfa85390cdab4c35458b0e \
-                    size    110036
+checksums           texlive-lang-polish-73410-run.tar.xz \
+                    rmd160  5e8f2354741a813ab690609ca53f290b9762cafa \
+                    sha256  05a38254db126ee7d5f906bede7155382dfe1c7def460924f2b558797b85ec42 \
+                    size    2519256 \
+                    texlive-lang-polish-73410-doc.tar.xz \
+                    rmd160  2c4feeccc192699c1eebca8a18d21a3967fff167 \
+                    sha256  50d8beb63fd75fe90712e4e83e05065bb95e2c35143abcea44527e57eb938fc3 \
+                    size    6108916 \
+                    texlive-lang-polish-73410-src.tar.xz \
+                    rmd160  7fcab5fc31d09580c7a656e5b8a8c8fe6911bee3 \
+                    sha256  90437a32120ff491bf02d22b611c72c892b6df7925657df9efed414ae54640a3 \
+                    size    110332
 
 depends_lib         port:texlive-basic port:texlive-latex
 

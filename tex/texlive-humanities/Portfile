@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-humanities
-version             70202
+version             73810
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, social sciences, humanities, etc.
 
-checksums           texlive-humanities-70202-run.tar.xz \
-                    rmd160  2d07588344571cfb11c6c3ed7dc68c689e76223d \
-                    sha256  c99f4cb41c8f0b0c80871386d7e3d50e696d43a0390fd93e5b026ee928334399 \
-                    size    33405468 \
-                    texlive-humanities-70202-doc.tar.xz \
-                    rmd160  30e18078edb854fcaf3d4bf633001fd01a43e537 \
-                    sha256  9ff00854512a29a9e1fcaf20f9a7a64c19d6d42629b455b12c383ab85e04fa00 \
-                    size    32448356 \
-                    texlive-humanities-70202-src.tar.xz \
-                    rmd160  fa7d427113c01009e0800b6bb9d76311eadf1d69 \
-                    sha256  20e4d98bccd4ae7bca922ad45f1f480b0a62d809ac96458c8eb0064ba563af02 \
-                    size    632052
+checksums           texlive-humanities-73810-run.tar.xz \
+                    rmd160  75babd41404d85616a4b3b1082d3f339d3ac6fb6 \
+                    sha256  50782d160571dd811b8d76289823ea75c197fe972c77f42cee8a91c4e255e692 \
+                    size    464760 \
+                    texlive-humanities-73810-doc.tar.xz \
+                    rmd160  6b8ab5ced4184c3eef0567dc0eed83fb35761124 \
+                    sha256  ec31fa69bf9db3e5d9e5c67cb0fe2e40ae9a5629903a1ea6cae08125866199fb \
+                    size    32887252 \
+                    texlive-humanities-73810-src.tar.xz \
+                    rmd160  e79560b8ab79dbb3b1cd0322643e091d07b48c24 \
+                    sha256  02efe8827b0003d40eb1764e22da84bd26bb147db5cf015afe3be0b449a2d30e \
+                    size    634404
 
 depends_lib         port:texlive-latex
 

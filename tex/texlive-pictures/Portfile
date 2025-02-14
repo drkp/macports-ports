@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             70579
+version             73886
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Graphics, pictures, diagrams
 long_description    Including TikZ, pict, etc., but MetaPost and PStricks are separate.
 
-checksums           texlive-pictures-70579-run.tar.xz \
-                    rmd160  a08ffa3c58932a794ab6856bad5322d8db0d710f \
-                    sha256  5e86dd79a40c1dc8c3fd146dd2789db4813c4b3789c2cf8287f8f41b47f0e8e6 \
-                    size    269340520 \
-                    texlive-pictures-70579-doc.tar.xz \
-                    rmd160  d662927320502bb22780a9e22bf7c201acbb93f9 \
-                    sha256  189ba1575db375f527d8dacfc3810132ff3100b1d5daac6376ea9e9d11715252 \
-                    size    249886972 \
-                    texlive-pictures-70579-src.tar.xz \
-                    rmd160  78380330ca54cd677da41ad8a66fce464fef0849 \
-                    sha256  4ed2584df328320f34c1fac5d60796195cf7cde359a329e842403ea523cc5972 \
-                    size    2824724
+checksums           texlive-pictures-73886-run.tar.xz \
+                    rmd160  42891cd6c69547c67cb09f69f69b3b62c47cde53 \
+                    sha256  7fea7c53ab2f1044df68f75f8aabcf5a35c2aa1c7188e12ae3a006fecca92ced \
+                    size    16712636 \
+                    texlive-pictures-73886-doc.tar.xz \
+                    rmd160  0b9450578b55661ff84d0008ad32c0adda261da0 \
+                    sha256  4ad8e3774d472fafce744f46c441e93c72f17bce33cbd6437f4b17912e6483bc \
+                    size    241749888 \
+                    texlive-pictures-73886-src.tar.xz \
+                    rmd160  f20ad8d83346f768841d6a8f207274bdc7a8384a \
+                    sha256  6c5026cc73711978693baa8d31e586cb4ae258feb74046a1fef97b1fad732a65 \
+                    size    2835032
 
 depends_lib         port:texlive-basic
 

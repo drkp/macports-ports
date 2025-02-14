@@ -4,27 +4,27 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-context
-version             70437
+version             73942
 revision            0
 
 categories          tex
 maintainers         {dports @drkp}
 license             Copyleft Permissive
 description         TeX Live: ConTeXt and packages
-long_description    Hans Hagen's powerful ConTeXt system, http://pragma-ade.com. Also includes third-party ConTeXt packages.
+long_description    Hans Hagen's powerful ConTeXt system, https://pragma-ade.com. Also includes third-party ConTeXt packages.
 
-checksums           texlive-context-70437-run.tar.xz \
-                    rmd160  8fff89d0120de43b959a4c1ed92dc18b2ac366c8 \
-                    sha256  26282deec9a055565feca00a8bfa591ff38f58d0781fd7ab6f7414e4379de905 \
-                    size    104861288 \
-                    texlive-context-70437-doc.tar.xz \
-                    rmd160  e06b80828502f626800b9488fc6696d1842d7fe0 \
-                    sha256  d858ea4bc613841f8c0d4abb7acfd66ec9bc871ba8553f233246a223b3a0bd60 \
-                    size    93941676 \
-                    texlive-context-70437-src.tar.xz \
-                    rmd160  a44fff3b34d408e79491d5082a2115f3cef2f7f2 \
-                    sha256  4467a40378f59cb2e7129d23b202f0a11e6d7ea95801cead2c950b897ea04a1f \
-                    size    6716
+checksums           texlive-context-73942-run.tar.xz \
+                    rmd160  9595e3a3627704c7e621d1c0f72063252f78e9d7 \
+                    sha256  b91212fcf67c079bd43b18b316cc884ae9375d58159136fe20d2f61bfc65ef6c \
+                    size    9705520 \
+                    texlive-context-73942-doc.tar.xz \
+                    rmd160  8d03c8e8f67ed1da411420312191ff9e4cfa1684 \
+                    sha256  6f4ee82a59cdebbb7a68a58638596cef913de74ad941700aaff423bf60b4f2bc \
+                    size    86765816 \
+                    texlive-context-73942-src.tar.xz \
+                    rmd160  0eedb6cadd2849ca4b42412dc5f18bbf22df7b86 \
+                    sha256  73f60aedb52bf8cea4c1e84e2e8c15775a0e37aca579f1565cdc95e47f2e4dfe \
+                    size    6700
 
 depends_lib         port:texlive-basic
 

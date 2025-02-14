@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-japanese
-version             70527
+version             73942
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Japanese
 long_description    Support for Japanese\; additional packages are in collection-langcjk.
 
-checksums           texlive-lang-japanese-70527-run.tar.xz \
-                    rmd160  35028e0d320a7e83e998bf871161f0b0cb33adfa \
-                    sha256  84c0b37090776800bb069d72b2f5f12111b855c0e8db10702ae57cfb699f7465 \
-                    size    118246900 \
-                    texlive-lang-japanese-70527-doc.tar.xz \
-                    rmd160  9f84590c3417ca9a09ccf49aa22b2c40a4e392d8 \
-                    sha256  335dfd23f6fba1c4887514826c63b95059f7dd6c32a0de1bcba9c3cf1f7ee3e4 \
-                    size    26549304 \
-                    texlive-lang-japanese-70527-src.tar.xz \
-                    rmd160  4430bc71300f9d86e742e4c9164dcaa4b7ff0336 \
-                    sha256  c3112f8d247b4748930463a7d3441b3f8d7bc24bf8c6f4af6ec84087a098fb71 \
-                    size    768360
+checksums           texlive-lang-japanese-73942-run.tar.xz \
+                    rmd160  6bcc6dcfe71432129804759a36800f2f74b041ad \
+                    sha256  30f3917751b9921d35075e97860353c09cae1538fccf579bbb3f024e9abd61b6 \
+                    size    81369380 \
+                    texlive-lang-japanese-73942-doc.tar.xz \
+                    rmd160  71f37f8e816da82991e72434365d0ce0e49caec5 \
+                    sha256  0fffa563e138727f6eb2c94e577034547af63b19ae5cf367c084b34b9d534929 \
+                    size    29290888 \
+                    texlive-lang-japanese-73942-src.tar.xz \
+                    rmd160  27a96739a4c6c4ce3e7d5eaf7023638c68da3cd1 \
+                    sha256  b2719861cbfe60efffec6eb5a98861a4677bf2a7304064e843c356b0838a6495 \
+                    size    731580
 
 depends_lib         port:texlive-lang-cjk
 

@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-latex
-version             70501
+version             73881
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: LaTeX fundamental packages
 long_description    These packages are either mandated by the core LaTeX team, or very widely used and strongly recommended in practice.
 
-checksums           texlive-latex-70501-run.tar.xz \
-                    rmd160  c2bce6639564d633702e7b05306099e9e747199b \
-                    sha256  f2e873df5e411ce98ce70a4a44284dfe5ae4a75057d7e43b7de3e50f00f9654c \
-                    size    99282096 \
-                    texlive-latex-70501-doc.tar.xz \
-                    rmd160  17189cdceaa74656aa0dddf47040d6aedb249713 \
-                    sha256  7beaa9b07e8ca32d18e16177976a8eb215962ed597f68516cba0a2a7e2c812e4 \
-                    size    94510216 \
-                    texlive-latex-70501-src.tar.xz \
-                    rmd160  a35a5ef35f516ed926ad51108b50349b1f0f3d64 \
-                    sha256  7706d7f1f4bba71065d3d129aaec11beda7f90da8c28720d6bc34f41994041a2 \
-                    size    3908564
+checksums           texlive-latex-73881-run.tar.xz \
+                    rmd160  50c68b951433129be6a13cf26e9277b84e3efeb5 \
+                    sha256  d24b4431766b09d7978668d97ce8d2576cc5f47b059a807b0576704d6d2721c5 \
+                    size    1232956 \
+                    texlive-latex-73881-doc.tar.xz \
+                    rmd160  0081ee9faa4883f5d9bf90c34254b41e39d4eea5 \
+                    sha256  92666fae670b58219e3bb0ff9608b5812ec129ef8e285790baab12d44d8a16d1 \
+                    size    93147912 \
+                    texlive-latex-73881-src.tar.xz \
+                    rmd160  30cbc6bcaa76e053bfa0fefeb5928760eb5b64f2 \
+                    sha256  708d11586c6c40e84fd1185448c4f35bc5e7f0251d8868d9c14fdbf370fff9a0 \
+                    size    4014228
 
 depends_lib         port:texlive-basic
 

@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-math-science
-version             70350
+version             73848
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Mathematics, natural sciences, computer science packages
 long_description    Mathematics, natural sciences, computer science packages
 
-checksums           texlive-math-science-70350-run.tar.xz \
-                    rmd160  8c8075879333148a54d88a2cb140fa97e4df40a5 \
-                    sha256  5e99c9d5739dadf16aae370aa91254b223087c0458f96ee6cd8b0558279605d4 \
-                    size    95162360 \
-                    texlive-math-science-70350-doc.tar.xz \
-                    rmd160  97e77cd22d2a7e0d9b9f6ee52132b2078a24b9cc \
-                    sha256  ac1a4e8d902a05beccf20171d2bd1e7c334be8a29f9b15cf349a74fe6e405671 \
-                    size    89653568 \
-                    texlive-math-science-70350-src.tar.xz \
-                    rmd160  e40543a203dad781806fa7592309015a3c7a9d7a \
-                    sha256  25b6442c373e76e74b2c20ee1739927d295c91ddf70b344146fbbae285f7b539 \
-                    size    1885128
+checksums           texlive-math-science-73848-run.tar.xz \
+                    rmd160  5e192a647ff91dc76d790621dc31ee7ac4a092bc \
+                    sha256  2e13859cd3027302dec3ae611eb6eca2f6f1160ccfb29c8ce7b2a0e53608f6c9 \
+                    size    3815412 \
+                    texlive-math-science-73848-doc.tar.xz \
+                    rmd160  7d15542d63ae62c1122059a6ef191ec0b1d70370 \
+                    sha256  0b3758f83163229b14c92394eaae1ac1ccb6d4edff436f5da7ee5010a390c1f4 \
+                    size    96915740 \
+                    texlive-math-science-73848-src.tar.xz \
+                    rmd160  de95601ff00a4da5130624a30b2a2f6ac86f5a84 \
+                    sha256  6ef1f04aa81072a748e8cd5d5495419b348ef28ffde2bf7dba5a573a7f2495bf \
+                    size    2000232
 
 depends_lib         port:texlive-fonts-recommended port:texlive-latex
 

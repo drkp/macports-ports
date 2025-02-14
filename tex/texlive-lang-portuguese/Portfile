@@ -4,27 +4,27 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-portuguese
-version             68627
+version             73487
 revision            0
 
 categories          tex
 maintainers         {dports @drkp}
 license             Copyleft Permissive
 description         TeX Live: Portuguese
-long_description    Support for Portuguese.
+long_description    Support for Portuguese and Brazilian Portuguese.
 
-checksums           texlive-lang-portuguese-68627-run.tar.xz \
-                    rmd160  058f0a50caf3e350fa84e0fd0cebe265e5d5ad8d \
-                    sha256  ff58c8ac8e103e776ac49a312bd91571bbda15193bda2a4fb4ee77bf2df96eba \
-                    size    12338472 \
-                    texlive-lang-portuguese-68627-doc.tar.xz \
-                    rmd160  56194a1ac1bd6626e72d49f97fda8a25b1823f6a \
-                    sha256  7a20796bcf58f25291201e11fed64d919272d00fef081c14bc513ff200f4f937 \
-                    size    12313780 \
-                    texlive-lang-portuguese-68627-src.tar.xz \
-                    rmd160  01bd07965e10b3b77d8cb5982ddc3aab90cbd656 \
-                    sha256  bf001ad12557c3afbf04acc4bba934822f187ef19e5800d4411b19ded1bd5c2a \
-                    size    17064
+checksums           texlive-lang-portuguese-73487-run.tar.xz \
+                    rmd160  09876eef835ca057c3b2e62aa8f2ab3ad2d5156c \
+                    sha256  ba933a1409bd93b23be786cb2e6198832dd7a490aea00980b2d5603b5504bfbb \
+                    size    20648 \
+                    texlive-lang-portuguese-73487-doc.tar.xz \
+                    rmd160  4b2f24bf2a4db2e248f50b65972ee4fc826c59c6 \
+                    sha256  c0cf5422f6368fd0560d55f11d8fc30823eae2fbfc650c280185071f84fe22b6 \
+                    size    11700228 \
+                    texlive-lang-portuguese-73487-src.tar.xz \
+                    rmd160  5ad1eec391e392da10516e49f2a1972e158f3f09 \
+                    sha256  b4f614e6ca7d6e8de416e37691d86904c14336d8c2bf16c6e1a5a5e4227fd4f2 \
+                    size    17132
 
 depends_lib         port:texlive-basic
 

@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-cjk
-version             70274
+version             73806
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Chinese/Japanese/Korean (base)
 long_description    Packages supporting a combination of Chinese, Japanese, Korean, including macros, fonts, documentation. Also Thai in the c90 encoding, since there is some overlap in those fonts\; standard Thai support is in collection-langother. Additional packages for CJK are in their individual language collections.
 
-checksums           texlive-lang-cjk-70274-run.tar.xz \
-                    rmd160  184c503d973cc5e3e970e37ddafb33207348a964 \
-                    sha256  928d536a3e1faabe515cdbac8f30c76778593879a3482a38053d08f9994134a6 \
-                    size    8134084 \
-                    texlive-lang-cjk-70274-doc.tar.xz \
-                    rmd160  a95cd811dce7e3c1a890f9e7149f34784aeae95b \
-                    sha256  7376a32a529e218e2bef0ed9affdcefc4198baaa3e92160a523cca084bfe3545 \
-                    size    5197084 \
-                    texlive-lang-cjk-70274-src.tar.xz \
-                    rmd160  577d0a9457e339bc56928b910f90351798acb5dd \
-                    sha256  dec131883011a29dc93328605cb81ec7e42d2780c2fc058b30b63f6dfce9c9b3 \
-                    size    196296
+checksums           texlive-lang-cjk-73806-run.tar.xz \
+                    rmd160  f6aadb4aff5fd8253e9164c6de3a67c88e21fd17 \
+                    sha256  c510b8fb33166eacd3a11bd27bd82e7039b7829bbbef757ba6f62fe8fe9a3b36 \
+                    size    2779084 \
+                    texlive-lang-cjk-73806-doc.tar.xz \
+                    rmd160  d6dc7e9e805424da8c91d8f7fed59f9cea18a9b8 \
+                    sha256  c75a7d91330fe0dccabde074f319a878bf0a78fbc973fec6106a593b716a2659 \
+                    size    5196068 \
+                    texlive-lang-cjk-73806-src.tar.xz \
+                    rmd160  e442c79528e9e8b6a10983d2c5bdec40b704400c \
+                    sha256  f003c1535a3e23c8c76cbe8da184165147d897bad377ba21501bb0b66f05d7ca \
+                    size    195908
 
 depends_lib         port:texlive-basic
 
