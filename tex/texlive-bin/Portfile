@@ -9,7 +9,7 @@ PortGroup       texlive 1.0
 PortGroup       muniversal 1.1
 
 name            texlive-bin
-version         2025.73953
+version         2025.74524
 
 categories      tex
 maintainers     {dports @drkp}
@@ -48,14 +48,14 @@ compiler.cxx_standard \
 set tlpkgdistname   tlpkg-TeXLive-${version}
 distfiles-append    ${tlpkgdistname}${extract.suffix}
 
-checksums           texlive-source-2025.73953.tar.xz \
-                    rmd160  9c5b46d99186368a98f50a0ca0bfd59477fb380c \
-                    sha256  20f132c5f159a354b5b9f053ec1af0b4924b9ca1e9d828d1a7b668163f3d5322 \
-                    size    87933472 \
-                    tlpkg-TeXLive-2025.73953.tar.xz \
-                    rmd160  d39e358833ea215aba8b0ae7f1275177ef4f7e71 \
-                    sha256  ebd6fc10eea40bf1ce4c214c6e12a54ae4ebf64e5a9083d86e5a632afe195d1e \
-                    size    119360
+checksums           texlive-source-2025.74524.tar.xz \
+                    rmd160  c24e070f0a9f3aaa082f3aa60f18aa8a76f08098 \
+                    sha256  f3b510dd81eb8742a0161134a04efb14f819f4173bd3e39e59cf127b4f8f6f2e \
+                    size    107284604 \
+                    tlpkg-TeXLive-2025.74524.tar.xz \
+                    rmd160  08c94126bdd4873e8485dc9636d28058a3fabe2b \
+                    sha256  23fdd34031780d08da2c9c37a55a0436d0c096ac112daa747447f7698d8e0318 \
+                    size    119052
 
 depends_lib     port:fontconfig \
                 port:freetype \
