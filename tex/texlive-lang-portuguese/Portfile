@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-portuguese
-version             73487
+version             74203
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Portuguese
 long_description    Support for Portuguese and Brazilian Portuguese.
 
-checksums           texlive-lang-portuguese-73487-run.tar.xz \
-                    rmd160  09876eef835ca057c3b2e62aa8f2ab3ad2d5156c \
-                    sha256  ba933a1409bd93b23be786cb2e6198832dd7a490aea00980b2d5603b5504bfbb \
-                    size    20648 \
-                    texlive-lang-portuguese-73487-doc.tar.xz \
-                    rmd160  4b2f24bf2a4db2e248f50b65972ee4fc826c59c6 \
-                    sha256  c0cf5422f6368fd0560d55f11d8fc30823eae2fbfc650c280185071f84fe22b6 \
-                    size    11700228 \
-                    texlive-lang-portuguese-73487-src.tar.xz \
-                    rmd160  5ad1eec391e392da10516e49f2a1972e158f3f09 \
-                    sha256  b4f614e6ca7d6e8de416e37691d86904c14336d8c2bf16c6e1a5a5e4227fd4f2 \
-                    size    17132
+checksums           texlive-lang-portuguese-74203-run.tar.xz \
+                    rmd160  5f991c8ea864f6039a01cc1c16f64bdccad3b527 \
+                    sha256  f6c10b1b933f20523ad8604260401c6a71ec4d4957e84ada96b10bd3c6263f11 \
+                    size    21136 \
+                    texlive-lang-portuguese-74203-doc.tar.xz \
+                    rmd160  084fa869b1e7096cedd91df48e5414f115cdeb74 \
+                    sha256  25fbe3de30dccdbca2f77ede027572db75b4cc860f85baeba1c5eb81fe71e661 \
+                    size    11697172 \
+                    texlive-lang-portuguese-74203-src.tar.xz \
+                    rmd160  e1aa194907f091318483653616075d0cca475883 \
+                    sha256  87f1dd7985d0896cbe442a619225aa40bfe6fc9acb862d393c342ba6d5f54d4e \
+                    size    17116
 
 depends_lib         port:texlive-basic
 

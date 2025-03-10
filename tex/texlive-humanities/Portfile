@@ -14,17 +14,17 @@ description         TeX Live: Humanities packages
 long_description    Packages for law, linguistics, social sciences, humanities, etc.
 
 checksums           texlive-humanities-73810-run.tar.xz \
-                    rmd160  75babd41404d85616a4b3b1082d3f339d3ac6fb6 \
-                    sha256  50782d160571dd811b8d76289823ea75c197fe972c77f42cee8a91c4e255e692 \
-                    size    464760 \
+                    rmd160  869b9c3c83b4d650cad7cb0b0b18534d6d51fc77 \
+                    sha256  085b4783c869ba0d133bc2e34693e35b6649a25350947d207b8c8b371487d07b \
+                    size    464112 \
                     texlive-humanities-73810-doc.tar.xz \
-                    rmd160  6b8ab5ced4184c3eef0567dc0eed83fb35761124 \
-                    sha256  ec31fa69bf9db3e5d9e5c67cb0fe2e40ae9a5629903a1ea6cae08125866199fb \
-                    size    32887252 \
+                    rmd160  fcc3b475861ecc87ededc35c949fa20ecd6ece2b \
+                    sha256  a46b13084e1f0772c63b390e187c4be330bc3c52319ca436f0754ca23cbbeac5 \
+                    size    32884052 \
                     texlive-humanities-73810-src.tar.xz \
-                    rmd160  e79560b8ab79dbb3b1cd0322643e091d07b48c24 \
-                    sha256  02efe8827b0003d40eb1764e22da84bd26bb147db5cf015afe3be0b449a2d30e \
-                    size    634404
+                    rmd160  12d0ebfaceea2fccf5429af60156d260af339140 \
+                    sha256  511ea3e7e422ae5847fc82fc7e2e2e987c2ff65dcf2d50a3d009db0434d710ab \
+                    size    631220
 
 depends_lib         port:texlive-latex
 

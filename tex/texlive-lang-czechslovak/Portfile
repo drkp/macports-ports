@@ -14,17 +14,17 @@ description         TeX Live: Czech/Slovak
 long_description    Support for Czech/Slovak.
 
 checksums           texlive-lang-czechslovak-73908-run.tar.xz \
-                    rmd160  e50b73ec7030ee0a63737872127b32ddd95959f6 \
-                    sha256  bef390ee9dbe3fb2dfbf9677b3d9a1676f7f128db9e09def1291df164d5a9763 \
-                    size    1977188 \
+                    rmd160  68c294727e77ba404072acccbfd6a8da907ec119 \
+                    sha256  ec16fb072d8267716d0e253a372732ef4d9116a54b4c953efab0102f6112cae1 \
+                    size    1977300 \
                     texlive-lang-czechslovak-73908-doc.tar.xz \
-                    rmd160  efe7eb72139e73c513177fc5f624a436a4ffb963 \
-                    sha256  f4d92d1da8fe79427e7702395b8f96272a1afa436f52a68b1b744053ac44a883 \
-                    size    8925128 \
+                    rmd160  48d62e5faab02f7d154f37eb8460619ac631dcff \
+                    sha256  ba2fd5fa295d14d1603d2db1bd27c786120ca295a4c60f145abf9a9c6bc9f6d6 \
+                    size    8925116 \
                     texlive-lang-czechslovak-73908-src.tar.xz \
-                    rmd160  fa0773353c86f6cfd371a9143523ffb23ffc582f \
-                    sha256  daac9f1a2d94bd6aa8b5dcdd14103b493058483500d94b509ca7f35a86c63866 \
-                    size    37332
+                    rmd160  855cbbdbfba9a15b6c000e7ad424cc5f5270fcce \
+                    sha256  bbf03007bbcc7f87c9c81a631530369b425b420a2b30fa2be3a0f29ab1a1149c \
+                    size    37136
 
 depends_lib         port:texlive-basic port:texlive-latex
 

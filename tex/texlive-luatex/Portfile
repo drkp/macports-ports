@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-luatex
-version             73923
+version             74512
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: LuaTeX packages
 long_description    Packages for LuaTeX, a TeX engine using Lua as an embedded scripting and extension language, with native support for Unicode, OpenType/TrueType fonts, and both PDF and DVI output. The LuaTeX engine itself (and plain formats) are in collection-basic.
 
-checksums           texlive-luatex-73923-run.tar.xz \
-                    rmd160  85f7e7a1651e317f1a166b34ffcdaead426b25b6 \
-                    sha256  3fd91b333a4780a428b38b95e75cff5e811a81f27e11649e58a4a8983a0a5199 \
-                    size    3626828 \
-                    texlive-luatex-73923-doc.tar.xz \
-                    rmd160  8a09a363df02fbc4088da5a752815c09776870eb \
-                    sha256  64cf6bbea33a0bb7dc1b29f87f01e611715430f42c9433429a20ac8beb438f3e \
-                    size    24194100 \
-                    texlive-luatex-73923-src.tar.xz \
-                    rmd160  5c89bf58398fcdca4c64ff913b4a78e06e92a996 \
-                    sha256  c1f8a08106b3852175d26589212efe8b08fd3c79cf7ce70069c8595b4fb1c83a \
-                    size    457200
+checksums           texlive-luatex-74512-run.tar.xz \
+                    rmd160  1c2af7e57be8bb3ff0f37a732a8a10dbbe5de4ac \
+                    sha256  45ba2dbe62342033d06ac063e375c03554123b32e2cb23e3e9bc4c849440292d \
+                    size    3635496 \
+                    texlive-luatex-74512-doc.tar.xz \
+                    rmd160  75172e8b656dd07868210f66944ebe6ea819e0d3 \
+                    sha256  90eba48357bf5214cb1dd83d29c9d91498aa0f62eaed696e47de1fdbf87a6252 \
+                    size    25018376 \
+                    texlive-luatex-74512-src.tar.xz \
+                    rmd160  37ee7f46333b5386a4eb56c853b074df31fc6dcb \
+                    sha256  f130a7cec4c5cc69e73bc58204c2c470c86dae6d9e8b04026b0aab4dcefd66f6 \
+                    size    481144
 
 depends_lib         port:texlive-basic
 

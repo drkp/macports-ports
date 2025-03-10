@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-bin-extra
-version             73942
+version             74436
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: TeX auxiliary programs
 long_description    Myriad additional TeX-related support programs. Includes programs and macros for DVI file manipulation, literate programming, patgen, and plenty more.
 
-checksums           texlive-bin-extra-73942-run.tar.xz \
-                    rmd160  227376aac6b9e874b325ab77cf4c40b716f11a2b \
-                    sha256  5d0f4b84f7eb85121241871633b43bdcf4c0593845cda431e4060634873f1ec4 \
-                    size    87233336 \
-                    texlive-bin-extra-73942-doc.tar.xz \
-                    rmd160  1bdfb8c892fcab3d7be1fe72441e707b68306cd7 \
-                    sha256  31341b9d5ec3e84ee50e7feb107265574a29772111a7013a036f3532765c23a6 \
-                    size    36139824 \
-                    texlive-bin-extra-73942-src.tar.xz \
-                    rmd160  a3be0db6ef27f96ab1716001b1cdec7204e6b9a9 \
-                    sha256  2238e01c5afb00d4f33c6fba052342c3f68fa714b4d5d607a7e4c50cbe78c0ab \
-                    size    495956
+checksums           texlive-bin-extra-74436-run.tar.xz \
+                    rmd160  81e94a938f7ac85e1a44eb2a900aee6d0d8c7ad2 \
+                    sha256  bf308577b1deb5b6e6d4be94e2795504e2af8ae6956d50fdfe482b1a130ec7f2 \
+                    size    87215400 \
+                    texlive-bin-extra-74436-doc.tar.xz \
+                    rmd160  02cb8020ccd9ad04926ffe826a2d06f875dee8a5 \
+                    sha256  aac35ee5e721dc11deb58fb0ea70c20e1bf0779a0330b0e3764bf432b8b3f0f8 \
+                    size    36132168 \
+                    texlive-bin-extra-74436-src.tar.xz \
+                    rmd160  14aa8a949b2d5d1a17e4441464e37da01c003a78 \
+                    sha256  04bd895db890ca90688165360b5ff12fd687bccddc77ea6b47c529fef60c884d \
+                    size    491768
 
 depends_lib         port:texlive-basic
 

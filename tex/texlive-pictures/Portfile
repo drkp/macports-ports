@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pictures
-version             73886
+version             74487
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Graphics, pictures, diagrams
 long_description    Including TikZ, pict, etc., but MetaPost and PStricks are separate.
 
-checksums           texlive-pictures-73886-run.tar.xz \
-                    rmd160  42891cd6c69547c67cb09f69f69b3b62c47cde53 \
-                    sha256  7fea7c53ab2f1044df68f75f8aabcf5a35c2aa1c7188e12ae3a006fecca92ced \
-                    size    16712636 \
-                    texlive-pictures-73886-doc.tar.xz \
-                    rmd160  0b9450578b55661ff84d0008ad32c0adda261da0 \
-                    sha256  4ad8e3774d472fafce744f46c441e93c72f17bce33cbd6437f4b17912e6483bc \
-                    size    241749888 \
-                    texlive-pictures-73886-src.tar.xz \
-                    rmd160  f20ad8d83346f768841d6a8f207274bdc7a8384a \
-                    sha256  6c5026cc73711978693baa8d31e586cb4ae258feb74046a1fef97b1fad732a65 \
-                    size    2835032
+checksums           texlive-pictures-74487-run.tar.xz \
+                    rmd160  37243280b12329c1495333c860d5ffe7dbaa55ba \
+                    sha256  b0167ee402a4b8779c843b226a01532ec12d3bdf9d3e984b84d4fe3c74edc557 \
+                    size    16711944 \
+                    texlive-pictures-74487-doc.tar.xz \
+                    rmd160  381d460fe922e30f69080e9185279ad084e39f26 \
+                    sha256  6ad17f480c578bc5b1c73b1f87b353a91ea8612b81a840b1127ab1878337fd93 \
+                    size    244133928 \
+                    texlive-pictures-74487-src.tar.xz \
+                    rmd160  5621b37ef042a9479cfccb598a91c1e2a0e85461 \
+                    sha256  ef15274292a8ac715324100d592cba15ced72fc0e9cc42a850930a75cf386bea \
+                    size    2855200
 
 depends_lib         port:texlive-basic
 

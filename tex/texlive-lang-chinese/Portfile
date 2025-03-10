@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-chinese
-version             73925
+version             74374
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Chinese
 long_description    Support for Chinese\; additional packages in collection-langcjk.
 
-checksums           texlive-lang-chinese-73925-run.tar.xz \
-                    rmd160  70f634e4b60a742b9bb4fbdc4d377a65ddfdc924 \
-                    sha256  d904f6e71288985b7630494becb5ba4113388f2f7d36c47ac45bb3bc808ebf2b \
-                    size    64825348 \
-                    texlive-lang-chinese-73925-doc.tar.xz \
-                    rmd160  4cb92c531c372254b6ac308c985c55774fc4ee2f \
-                    sha256  f88667c7a9868d9d5458cfa50a6c783fb8040c0ef958c44674a6dcea028e3a91 \
-                    size    27214948 \
-                    texlive-lang-chinese-73925-src.tar.xz \
-                    rmd160  7e7f2e221fc855449945efb4b1142ddc49aa2520 \
-                    sha256  cf79e81c050b2135812fd74e4a34006bd27bc31e89c2d47717521becf89f6280 \
-                    size    382276
+checksums           texlive-lang-chinese-74374-run.tar.xz \
+                    rmd160  5b2fc1f3f4a5f3fe927a643092c776b372c89bd2 \
+                    sha256  caa229bde98902a03545de0c734b549125dcd1867585256d47cabddc6df9ff6e \
+                    size    64838824 \
+                    texlive-lang-chinese-74374-doc.tar.xz \
+                    rmd160  59ca7892b5bc5cb8885ef947aee03815c7fb4714 \
+                    sha256  f90684318ae856ae7698d4722215b43275ad9958cc93e00492d46a80ea79f9e1 \
+                    size    27301044 \
+                    texlive-lang-chinese-74374-src.tar.xz \
+                    rmd160  7b7aece322f45824e01af2860e4aecd1b0c045fc \
+                    sha256  e124ddc961177576d70b75a344262200fb3d56dd03027dfa92d506ffe75bdb0c \
+                    size    380868
 
 depends_lib         port:texlive-lang-cjk
 

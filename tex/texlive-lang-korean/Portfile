@@ -14,16 +14,16 @@ description         TeX Live: Korean
 long_description    Support for Korean\; additional packages in collection-langcjk.
 
 checksums           texlive-lang-korean-73884-run.tar.xz \
-                    rmd160  55c42b507c9d0add6c1cba98feb0bb9526164c91 \
-                    sha256  a502fafe424be4be4faafc21771e48a61d4cf96891686bf755d14a80d03497da \
-                    size    60548280 \
+                    rmd160  a62699cc6a62f92dd2fc59abafcd6809d8eca213 \
+                    sha256  0ea1330cf853f6a564f0899de5e9e81e96e96d4bdf749da90dbd76d633b14359 \
+                    size    60526412 \
                     texlive-lang-korean-73884-doc.tar.xz \
-                    rmd160  3bbc57fce79d746b944943eeb898d44cac5463d3 \
-                    sha256  7e774eaa82b7059bb9e7271d72679a517854e88ac44c859acea592a2d40537a9 \
-                    size    12879892 \
+                    rmd160  288f2cd45842ba643cbddac38d15766e48793e22 \
+                    sha256  79169be1201471cbae74cf3c5a0b69d5598bdd5323dd34f92cc5b52817f5bef7 \
+                    size    12881868 \
                     texlive-lang-korean-73884-src.tar.xz \
-                    rmd160  fcb7ffdc3558ed7558e0308466f4791631c98756 \
-                    sha256  58657baeb423bfd06b8a0e50231bc2f83580ebf776a8c517da3a69f0f4d6411f \
+                    rmd160  156135d4f3f00cecf3b11c306c210df90bbd2cc0 \
+                    sha256  42898b598d90955c00e24cdcee4b341f1ea8aa7187804fd43cb647f32b0c5ddc \
                     size    200
 
 depends_lib         port:texlive-lang-cjk

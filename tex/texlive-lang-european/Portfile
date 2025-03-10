@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-european
-version             73855
+version             74115
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Other European languages
 long_description    Support for a number of European languages\; others (Greek, German, French, ...) have their own collections, depending simply on the size of the support.
 
-checksums           texlive-lang-european-73855-run.tar.xz \
-                    rmd160  380a0018c6c2101dfa2606b57a57a714824629aa \
-                    sha256  47aa0996cebdf1d9e2016368f00481e4a277f6f8a5b80f15c749385a60c02795 \
-                    size    1782004 \
-                    texlive-lang-european-73855-doc.tar.xz \
-                    rmd160  3e1cb01ae6a6327b1f645bab3ebce4b0c99aec21 \
-                    sha256  b9dbdf758386845fd086e7f6be076ce8e9db32065aa5694efd662bef1c948691 \
-                    size    14334080 \
-                    texlive-lang-european-73855-src.tar.xz \
-                    rmd160  b3a3ccb5b8a1af1091f36bbc2dff0174a0bcfd82 \
-                    sha256  fe9696acd475bfff87724694eadf4c38341e809d2a3a34ea5619c035f15b46c6 \
-                    size    154956
+checksums           texlive-lang-european-74115-run.tar.xz \
+                    rmd160  f1024efc199c3157093d6cbcb98eb56fab2d1144 \
+                    sha256  c39183e46b0d1e21272b71d262c6bb4b6c66fc2e6e18c8d68a4e726838ed2cfc \
+                    size    1782320 \
+                    texlive-lang-european-74115-doc.tar.xz \
+                    rmd160  08fe64e0f567a84346890ff034e3cec7bd1aa89f \
+                    sha256  865cb2b36290f806df4352f3a93529b035b1560dfaef240dedfbc9d2a056ad19 \
+                    size    14333232 \
+                    texlive-lang-european-74115-src.tar.xz \
+                    rmd160  b41c1b413d3aaf3c9eaea6e80af8d32a4ee2e5b4 \
+                    sha256  f41c5cfc410e7c55c5fb0637d081e79e92b302b0d77c0cb9af1e91b5663dd5d8 \
+                    size    154876
 
 depends_lib         port:texlive-basic
 

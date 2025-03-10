@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-fontutils
-version             73908
+version             74240
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Graphics and font utilities
 long_description    Programs for conversion between font formats, testing fonts, virtual fonts, .gf and .pk manipulation, mft, fontinst, etc. Manipulating OpenType, TrueType, Type 1,and for manipulation of PostScript and other image formats.
 
-checksums           texlive-fontutils-73908-run.tar.xz \
-                    rmd160  d80885510de90e18d3a90d784591df0522799397 \
-                    sha256  445b868e82f86cc68e17c3b0a0ea80da1d650475c876f967c5ec156a3eafe2e2 \
-                    size    5330120 \
-                    texlive-fontutils-73908-doc.tar.xz \
-                    rmd160  a5428b07eb37da1324d266c3a11c887335173beb \
-                    sha256  d6858cf00cbdf1a8b70814905d1e5346e8879a470bfac42818eb8f0bc97b4e62 \
-                    size    1966004 \
-                    texlive-fontutils-73908-src.tar.xz \
-                    rmd160  1e0770abbf5e934ffb36da065347030e0cb9a144 \
-                    sha256  170847bf997e2cbba20218c53e86d0a120e3155e497fa84752c6be131c5ec3b1 \
-                    size    674732
+checksums           texlive-fontutils-74240-run.tar.xz \
+                    rmd160  6f9526cad60de94c52b9453a036cf6c6ad535b16 \
+                    sha256  e84afdac846c62dc7a9f2f742f5fe28b34c6b9fadc0b7994da24f5bbc95d61e8 \
+                    size    5332084 \
+                    texlive-fontutils-74240-doc.tar.xz \
+                    rmd160  97bc669f1b63c55105abf53069f9ace7b7b01764 \
+                    sha256  e2fc91eb7fdd9aba6c47c2a5be80a27ef13092fae51a2066f631dc66e5f0c9d1 \
+                    size    1969108 \
+                    texlive-fontutils-74240-src.tar.xz \
+                    rmd160  bc8da14446826524a36f6c3e7d9013d90e985f39 \
+                    sha256  7377d9ec56be4869fbcd9d0c814cd335304e4f3b1f07af3f261fc4a4625efb84 \
+                    size    674744
 
 depends_lib         port:texlive-basic
 

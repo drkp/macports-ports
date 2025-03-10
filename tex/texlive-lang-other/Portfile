@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-lang-other
-version             73806
+version             74032
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: Other languages
 long_description    Support for languages not otherwise listed, including Indic, Thai, Vietnamese, Hebrew, Indonesian, African languages, and plenty more. The split is made simply on the basis of the size of the support, to keep both collection sizes and the number of collections reasonable.
 
-checksums           texlive-lang-other-73806-run.tar.xz \
-                    rmd160  ded011079c8f11fd9073a56a9d7e95aece16b8ab \
-                    sha256  1e9d91c0e919604067bc15e5f66fb268e0f9d28456d651a1d66e10b5c6b79b7c \
-                    size    25759360 \
-                    texlive-lang-other-73806-doc.tar.xz \
-                    rmd160  c5f6a83a0c4c3597502905d602d1908f76db66ce \
-                    sha256  3ff8af62f8c776b2ff2ceeccbc861d3f818700cefa0c5bc7f5de83b4890ddad9 \
-                    size    11700956 \
-                    texlive-lang-other-73806-src.tar.xz \
-                    rmd160  f1ebf194622ae59e0157f85eb3c2bd0df03d6563 \
-                    sha256  aa73dab712f577183734e9607ffd2a9c340d8c13d9046d138870efc6ab469dc9 \
-                    size    11320652
+checksums           texlive-lang-other-74032-run.tar.xz \
+                    rmd160  3c01bb52d37e531732c4aa9c3544ff7f8b3fe634 \
+                    sha256  d5944bd98fdf137377675160d40840be9849f54f621f83f5cbd48c434fe3ee1b \
+                    size    25766932 \
+                    texlive-lang-other-74032-doc.tar.xz \
+                    rmd160  47e8e23a1004bc8e365c67d98ad4dbd8e8912c05 \
+                    sha256  fbff6d32494beacabedc7ba249a5de62f8d373e277bca4459b2fe08aea671464 \
+                    size    11702620 \
+                    texlive-lang-other-74032-src.tar.xz \
+                    rmd160  7e858d2738b3eff4f8bd991e612732f45370c532 \
+                    sha256  a7b0ca9bfabc1a1cdead6e8087e5d2d83eb5e30619bc2ac313de87aec0c911d8 \
+                    size    11317588
 
 depends_lib         port:texlive-basic
 
@@ -35,6 +35,7 @@ texlive.languages      \
     {esperanto loadhyph-eo.tex 2 2 {} {hyph-eo.pat.txt} {} {} } \
     {ethiopic loadhyph-mul-ethi.tex 1 1 {amharic geez} {hyph-mul-ethi.pat.txt} {} {} } \
     {georgian loadhyph-ka.tex 1 2 {} {hyph-ka.pat.txt} {} {} } \
+    {hebrew hyph-he.tex 0 0 {} {} {} {} } \
     {assamese loadhyph-as.tex 1 1 {} {hyph-as.pat.txt} {} {} } \
     {bengali loadhyph-bn.tex 1 1 {} {hyph-bn.pat.txt} {} {} } \
     {gujarati loadhyph-gu.tex 1 1 {} {hyph-gu.pat.txt} {} {} } \
@@ -51,7 +52,8 @@ texlive.languages      \
     {interlingua loadhyph-ia.tex 2 2 {} {hyph-ia.pat.txt} {hyph-ia.hyp.txt} {} } \
     {sanskrit loadhyph-sa.tex 1 3 {} {hyph-sa.pat.txt} {} {} } \
     {thai loadhyph-th.tex 2 3 {} {hyph-th.pat.txt} {} {} } \
-    {turkmen loadhyph-tk.tex 2 2 {} {hyph-tk.pat.txt} {} {} }
+    {turkmen loadhyph-tk.tex 2 2 {} {hyph-tk.pat.txt} {} {} } \
+    {vietnamese hyph-vi.tex 0 0 {} {} {} {} }
 
 texlive.maps      \
     {Map syriac.map} \

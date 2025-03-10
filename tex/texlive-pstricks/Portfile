@@ -4,7 +4,7 @@ PortSystem          1.0
 PortGroup           texlive 1.0
 
 name                texlive-pstricks
-version             72868
+version             74247
 revision            0
 
 categories          tex
@@ -13,18 +13,18 @@ license             Copyleft Permissive
 description         TeX Live: PSTricks
 long_description    PSTricks core and all add-on packages.
 
-checksums           texlive-pstricks-72868-run.tar.xz \
-                    rmd160  02f6e0c5937dc6d1d7b87d16fb8be701386fed10 \
-                    sha256  73d20587920217c7e90bd521f1f4610d9373f41ffa90728caf63527aafbdc3b1 \
-                    size    29814700 \
-                    texlive-pstricks-72868-doc.tar.xz \
-                    rmd160  e743754e178a0b97f0dd7466cb608fb77da6657f \
-                    sha256  b2b6608d3ecd720c25272e0a81d42e8f46407fe397779cfc4e3319480d9024ea \
-                    size    285293920 \
-                    texlive-pstricks-72868-src.tar.xz \
-                    rmd160  23a09d7fe362a8fab271035bfdda2367e9361e88 \
-                    sha256  8e33718e9bef61de40fb825b5565fc97be39e759a2bfa479023bf410488fe165 \
-                    size    444416
+checksums           texlive-pstricks-74247-run.tar.xz \
+                    rmd160  28a2e73ea70338b58e2bf8673ea6cb16c8dc2f2c \
+                    sha256  ffb29f4426f3583aacec0f37a4c978f2c1f0a3611ce302dcf3ed7e5cc9965a8c \
+                    size    29815200 \
+                    texlive-pstricks-74247-doc.tar.xz \
+                    rmd160  8eb1a3a8215d64990a9cdfdddfe0c457bf50f9f5 \
+                    sha256  c51c89126dc5c035bd29ef6e27a024d2e16ca42e95e135488f75beff24856782 \
+                    size    358901768 \
+                    texlive-pstricks-74247-src.tar.xz \
+                    rmd160  7479a53e258f394d5ccd82deb14450f22d5e3476 \
+                    sha256  c13daf1004554a67f297397f9ff9179869e565f172d7f0221dc68f1cbc9a5a57 \
+                    size    445016
 
 depends_lib         port:texlive-basic port:texlive-plain-generic
 
