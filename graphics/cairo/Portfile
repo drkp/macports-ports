@@ -17,7 +17,7 @@ name                        cairo
 conflicts                   cairo-devel
 set my_name                 cairo
 version                     1.18.4
-revision                    1
+revision                    2
 checksums                   rmd160  757415ba8e1b5df92474644c887865a5ade9fd93 \
                             sha256  445ed8208a6e4823de1226a74ca319d3600e83f6369f99b14265006599c32ccb \
                             size    32578804
@@ -49,6 +49,11 @@ configure.python            ${prefix}/bin/python${py_ver}
 patchfiles-append           patch-darwin-dylib-versions.diff
 
 post-patch {
+    # Disable xcb-shm: MIT-SHM causes X11 BadAccess errors
+    # See https://trac.macports.org/ticket/40811
+    reinplace "s|xcbshm_dep = dependency('xcb-shm', required: get_option('xcb'))|xcbshm_dep = disabler()|" \
+        ${worksrcpath}/meson.build
+
     fs-traverse f ${worksrcpath} {
         if {[string match *.py ${f}]} {
             ui_info "patching env python3: ${f}"
