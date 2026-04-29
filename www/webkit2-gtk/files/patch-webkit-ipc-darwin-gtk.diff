@@ -1,0 +1,43 @@
+--- Source/WebKit/Platform/IPC/Attachment.h.orig	2026-04-28 11:18:09
++++ Source/WebKit/Platform/IPC/Attachment.h	2026-04-28 11:18:09
+@@ -26,24 +26,22 @@
+ 
+ #pragma once
+ 
+-#if OS(DARWIN)
+-#include <wtf/MachSendRight.h>
+-#endif
+-
+ #if USE(UNIX_DOMAIN_SOCKETS)
+ #include <wtf/unix/UnixFileDescriptor.h>
++#elif OS(DARWIN)
++#include <wtf/MachSendRight.h>
+ #endif
+ 
+ namespace IPC {
+ 
+ // IPC::Attachment is a type representing objects that cannot be transferred as data,
+ // rather they are transferred via operating system cross-process communication primitives.
+-#if OS(DARWIN)
++#if USE(UNIX_DOMAIN_SOCKETS)
++using Attachment = UnixFileDescriptor;
++#elif OS(DARWIN)
+ using Attachment = MachSendRight;
+ #elif OS(WINDOWS)
+ struct Attachment { }; // Windows does not need attachments at the moment.
+-#elif USE(UNIX_DOMAIN_SOCKETS)
+-using Attachment = UnixFileDescriptor;
+ #else
+ #error Unsupported platform
+ #endif
+--- Source/WebKit/Platform/IPC/Connection.h.orig	2026-04-28 11:18:09
++++ Source/WebKit/Platform/IPC/Connection.h	2026-04-28 11:18:09
+@@ -307,7 +307,7 @@
+ #endif
+     };
+ 
+-#if OS(DARWIN)
++#if OS(DARWIN) && !USE(UNIX_DOMAIN_SOCKETS)
+     xpc_connection_t xpcConnection() const { return m_xpcConnection.get(); }
+     std::optional<audit_token_t> getAuditToken();
+     pid_t remoteProcessID() const;

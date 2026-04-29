@@ -1,0 +1,11 @@
+--- Source/WTF/wtf/glib/FileSystemGlib.cpp.orig
++++ Source/WTF/wtf/glib/FileSystemGlib.cpp
+@@ -82,7 +82,7 @@
+     ssize_t result = readlink("/proc/curproc/file", readLinkBuffer, PATH_MAX);
+     if (result == -1)
+         return { };
+-    return CString(readLinkBuffer, result);
++    return CString(std::span<const char>(readLinkBuffer, result));
+ }
+ #elif OS(WINDOWS)
+ CString currentExecutablePath()

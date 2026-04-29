@@ -1,0 +1,11 @@
+--- Source/WebKit/Platform/IPC/ArgumentCoders.h.orig	2026-04-28 13:26:08
++++ Source/WebKit/Platform/IPC/ArgumentCoders.h	2026-04-28 13:26:08
+@@ -44,7 +44,7 @@
+ #include <wtf/WallTime.h>
+ 
+ #if USE(GLIB)
+-#include "ArgumentCodersGlib.h"
++#include "ArgumentCodersGlibStrv.h"
+ #endif
+ #if USE(UNIX_DOMAIN_SOCKETS)
+ #include "ArgumentCodersUnix.h"

@@ -1,0 +1,47 @@
+--- Source/WebCore/platform/graphics/gstreamer/GStreamerCommon.cpp.orig	2026-04-28 11:05:31
++++ Source/WebCore/platform/graphics/gstreamer/GStreamerCommon.cpp	2026-04-28 11:05:31
+@@ -1159,14 +1159,20 @@
+         if (gst_structure_get_int(structure, strKey.ascii().data(), &value))
+             return value;
+     } else if constexpr(std::is_same_v<T, int64_t>) {
+-        if (gst_structure_get_int64(structure, strKey.ascii().data(), &value))
++        gint64 gstValue;
++        if (gst_structure_get_int64(structure, strKey.ascii().data(), &gstValue)) {
++            value = gstValue;
+             return value;
++        }
+     } else if constexpr(std::is_same_v<T, unsigned>) {
+         if (gst_structure_get_uint(structure, strKey.ascii().data(), &value))
+             return value;
+     } else if constexpr(std::is_same_v<T, uint64_t>) {
+-        if (gst_structure_get_uint64(structure, strKey.ascii().data(), &value))
++        guint64 gstValue;
++        if (gst_structure_get_uint64(structure, strKey.ascii().data(), &gstValue)) {
++            value = gstValue;
+             return value;
++        }
+     } else if constexpr(std::is_same_v<T, double>) {
+         if (gst_structure_get_double(structure, strKey.ascii().data(), &value))
+             return value;
+--- Source/WebCore/platform/graphics/gstreamer/MediaPlayerPrivateGStreamer.cpp.orig	2026-04-28 11:05:31
++++ Source/WebCore/platform/graphics/gstreamer/MediaPlayerPrivateGStreamer.cpp	2026-04-28 11:05:31
+@@ -1358,7 +1358,7 @@
+     if (GST_STATE(m_pipeline.get()) < GST_STATE_PAUSED)
+         return MediaTime::invalidTime();
+ 
+-    int64_t duration = 0;
++    gint64 duration = 0;
+     if (!gst_element_query_duration(m_pipeline.get(), GST_FORMAT_TIME, &duration) || !GST_CLOCK_TIME_IS_VALID(duration)) {
+         GST_DEBUG_OBJECT(pipeline(), "Time duration query failed for %s", m_url.string().utf8().data());
+         // https://www.w3.org/TR/2011/WD-html5-20110113/video.html#getting-media-metadata
+--- Source/WebCore/platform/graphics/gstreamer/mse/WebKitMediaSourceGStreamer.cpp.orig	2026-04-28 11:05:31
++++ Source/WebCore/platform/graphics/gstreamer/mse/WebKitMediaSourceGStreamer.cpp	2026-04-28 11:05:31
+@@ -821,7 +821,7 @@
+         double rate;
+         GstFormat format;
+         GstSeekType startType;
+-        int64_t start;
++        gint64 start;
+         gst_event_parse_seek(event.get(), &rate, &format, nullptr, &startType, &start, nullptr, nullptr);
+         if (format != GST_FORMAT_TIME || startType != GST_SEEK_TYPE_SET) {
+             GST_ERROR_OBJECT(element, "Rejecting unsupported seek event: %" GST_PTR_FORMAT, event.get());

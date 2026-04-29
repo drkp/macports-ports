@@ -1,0 +1,28 @@
+--- Source/bmalloc/bmalloc/BPlatform.h.orig	2026-04-28 00:53:29
++++ Source/bmalloc/bmalloc/BPlatform.h	2026-04-28 00:53:29
+@@ -376,9 +376,5 @@
+ #endif
+ 
+ #if !defined(BUSE_TZONE)
+-#if BUSE(LIBPAS) && BOS(DARWIN) && (BCPU(ARM64) || BCPU(X86_64))
+-#define BUSE_TZONE 1
+-#else
+ #define BUSE_TZONE 0
+ #endif
+-#endif
+--- Source/WTF/wtf/PlatformUse.h.orig	2026-04-28 00:54:56
++++ Source/WTF/wtf/PlatformUse.h	2026-04-28 00:54:56
+@@ -302,13 +302,8 @@
+ #endif
+ 
+ #if !defined(USE_TZONE_MALLOC)
+-#if (CPU(ARM64) || CPU(X86_64)) && OS(DARWIN) && (__SIZEOF_POINTER__ == 8)
+-#define USE_TZONE_MALLOC 1
+-#define USE_ISO_MALLOC 0
+-#else
+ #define USE_TZONE_MALLOC 0
+ #endif
+-#endif
+ 
+ #if !defined(USE_ISO_MALLOC)
+ #define USE_ISO_MALLOC 1

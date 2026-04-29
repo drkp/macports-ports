@@ -1,0 +1,11 @@
+--- Source/WTF/wtf/CMakeLists.txt.orig
++++ Source/WTF/wtf/CMakeLists.txt
+@@ -667,7 +667,7 @@
+ elseif (APPLE)
++    # The .mm source references Cocoa headers not in the GTK tarball.
+     list(APPEND WTF_SOURCES
+-        darwin/OSLogPrintStream.mm
+-    )
++        darwin/OSLogPrintStream.cpp)
+ 
+     list(APPEND WTF_PUBLIC_HEADERS
