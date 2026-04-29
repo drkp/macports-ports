@@ -1,0 +1,25 @@
+--- Source/WebCore/platform/graphics/gstreamer/GStreamerCommon.cpp.orig	2026-04-29 22:00:00
++++ Source/WebCore/platform/graphics/gstreamer/GStreamerCommon.cpp	2026-04-29 22:00:00
+@@ -1364,14 +1364,20 @@
+         if (gst_structure_get_int(structure, key.utf8(), &value))
+             return value;
+     } else if constexpr(std::is_same_v<T, int64_t>) {
+-        if (gst_structure_get_int64(structure, key.utf8(), &value))
++        gint64 gstValue;
++        if (gst_structure_get_int64(structure, key.utf8(), &gstValue)) {
++            value = gstValue;
+             return value;
++        }
+     } else if constexpr(std::is_same_v<T, unsigned>) {
+         if (gst_structure_get_uint(structure, key.utf8(), &value))
+             return value;
+     } else if constexpr(std::is_same_v<T, uint64_t>) {
+-        if (gst_structure_get_uint64(structure, key.utf8(), &value))
++        guint64 gstValue;
++        if (gst_structure_get_uint64(structure, key.utf8(), &gstValue)) {
++            value = gstValue;
+             return value;
++        }
+     } else if constexpr(std::is_same_v<T, double>) {
+         if (gst_structure_get_double(structure, key.utf8(), &value))
+             return value;
