@@ -13,7 +13,7 @@ name              gnucash
 conflicts         gnucash gnucash-devel
 conflicts-delete  ${subport}
 version           5.14
-revision          2
+revision          3
 perl5.branches    5.34
 categories        gnome x11
 license           GPL-2+
@@ -95,7 +95,7 @@ depends_lib       port:guile-3.0 \
                   port:p${perl5.major}-finance-quote \
                   port:p${perl5.major}-json-parse \
                   path:lib/pkgconfig/gtk+-3.0.pc:gtk3 \
-                  path:lib/pkgconfig/webkit2gtk-4.0.pc:webkit2-gtk \
+                  path:lib/pkgconfig/webkit2gtk-4.1.pc:webkit2-gtk \
                   port:libdbi \
                   port:libdbi-drivers \
                   port:aqbanking6-gtk3 \
