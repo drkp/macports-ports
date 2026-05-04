@@ -4,7 +4,7 @@ PortSystem          1.0
 
 name                birdfont
 version             2.29.6
-revision            0
+revision            1
 checksums           rmd160  50aafc6a993ad3a22aeb9c4d154c20f6274455dc \
                     sha256  20d1cb1f7c2fd51af744b10200dd8242f72d22359d92cc5d7d57c19169f1f88b \
                     size    2591440
@@ -20,7 +20,7 @@ depends_build       port:pkgconfig \
                     port:python38 \
                     path:bin/vala:vala
 
-depends_lib         path:lib/pkgconfig/webkit2gtk-4.0.pc:webkit2-gtk \
+depends_lib         path:lib/pkgconfig/webkit2gtk-4.1.pc:webkit2-gtk \
                     path:lib/pkgconfig/glib-2.0.pc:glib2 \
                     path:lib/pkgconfig/cairo.pc:cairo \
                     path:lib/pkgconfig/gdk-pixbuf-2.0.pc:gdk-pixbuf2 \
