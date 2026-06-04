@@ -5,7 +5,7 @@ PortGroup       texlive 1.0
 
 name            texlive
 version         2026
-revision        1
+revision        2
 
 categories      tex
 maintainers     {dports @drkp}
@@ -173,7 +173,7 @@ variant full \
 
 variant letter description {Set paper format to letter} {
     post-activate {
-        system "texconfig-sys paper letter"
+        system "${prefix}/bin/tl-paper set all letter && ${prefix}/bin/fmtutil-sys --refresh"
     }
 }
 

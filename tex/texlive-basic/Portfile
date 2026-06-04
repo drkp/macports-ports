@@ -74,9 +74,9 @@ post-patch {
 }
 
 
-# mktexlsr is in texlive.infra which we don't install
-# The perl version should be sufficient.
 post-destroot {
+    # mktexlsr is in texlive.infra which we don't install
+    # The perl version should be sufficient.
     ln -s mktexlsr.pl ${destroot}${texlive_texmfdist}/scripts/texlive/mktexlsr
 
     # Install tl-paper, a small wrapper around TeXLive::TLPaper.pm (shipped
