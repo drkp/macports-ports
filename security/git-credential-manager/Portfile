@@ -1,0 +1,94 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+
+PortSystem          1.0
+PortGroup           github 1.0
+
+github.setup        git-ecosystem git-credential-manager 2.9.1 v
+
+categories          security devel
+supported_archs     arm64 x86_64
+platforms           {darwin >= 21}
+license             MIT
+maintainers         {dports @drkp} openmaintainer
+
+description         Secure, cross-platform Git credential storage with authentication \
+                    to GitHub, Azure Repos, Bitbucket, and GitLab
+long_description    Git Credential Manager (GCM) is a secure Git credential helper \
+                    built on .NET that runs on macOS, Windows, and Linux. It provides \
+                    multi-factor authentication support for GitHub, Azure Repos, \
+                    Bitbucket, and GitLab, and stores credentials in the macOS keychain.
+
+homepage            https://github.com/git-ecosystem/git-credential-manager
+
+# Upstream ships self-contained builds that bundle the .NET runtime, so there
+# is nothing to compile and no dependency on the dotnet ports. Building from
+# source instead is not practical here: dotnet restore downloads NuGet packages
+# from the network, which is not permitted outside the fetch phase, and
+# vendoring that package closure as distfiles costs ~130 MB and has to be
+# regenerated for every release.
+#
+# The trade-off is that the bundled runtime is only updated when upstream cuts
+# a new release, so watch for .NET security releases and check whether a GCM
+# rebuild is needed.
+switch ${build_arch} {
+    arm64 {
+        distname        gcm-osx-arm64-${version}
+        checksums       rmd160  20f48734098c5719fb81fcc823a570d209b6647b \
+                        sha256  2ac8f99258d04acb45cf592eb5b06ec0e0760c329bce40a4d18dabb5e0e37f68 \
+                        size    43931896
+    }
+    x86_64 {
+        distname        gcm-osx-x64-${version}
+        checksums       rmd160  1ce1dce081cf8e61f375b41bab2fcaa6c4db8b23 \
+                        sha256  326fc3e1c708ae792b010b2f9f701f3dc4dbaebdf40cafd036254ab0f148c034 \
+                        size    46147802
+    }
+    default {
+        known_fail      yes
+        pre-fetch {
+            ui_error "${subport} @ ${version} is not available for the ${build_arch} architecture"
+            return -code error "unsupported architecture: ${build_arch}"
+        }
+    }
+}
+
+# GCM shells out to git, and is useless without it, but any git will do.
+depends_run         bin:git:git
+
+universal_variant   no
+use_configure       no
+build {}
+
+# The release tarball unpacks its payload with no top-level directory.
+extract.mkdir       yes
+
+set gcm_core_dir    ${prefix}/share/gcm-core
+
+destroot {
+    xinstall -d ${destroot}${gcm_core_dir}
+    copy {*}[glob ${worksrcpath}/*] ${destroot}${gcm_core_dir}
+
+    # Upstream's uninstaller is for its own .pkg: it hardcodes /usr/local and
+    # forgets pkgutil receipts, neither of which applies to a MacPorts install.
+    delete ${destroot}${gcm_core_dir}/uninstall.sh
+
+    # The payload is a self-contained .NET app whose native host resolves its
+    # own directory through the symlink, so no launcher wrapper is needed.
+    xinstall -d ${destroot}${prefix}/bin
+    ln -s ${gcm_core_dir}/git-credential-manager \
+        ${destroot}${prefix}/bin/git-credential-manager
+}
+
+notes "
+To finish setting up ${name}, configure Git to use it as the credential\
+helper by running:
+
+    git-credential-manager configure
+
+To remove it from your Git configuration before uninstalling, run:
+
+    git-credential-manager unconfigure
+"
+
+# Only match stable release tags (e.g. v2.8.0), not -beta/-rc prereleases.
+github.livecheck.regex {(\d+(?:\.\d+)+)}
