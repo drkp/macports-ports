@@ -3,11 +3,11 @@
 PortSystem          1.0
 PortGroup           github 1.0
 
-github.setup        git-ecosystem git-credential-manager 2.9.1 v
+github.setup        git-ecosystem git-credential-manager 3.0.1 v
 
 categories          security devel
 supported_archs     arm64 x86_64
-platforms           {darwin >= 21}
+platforms           {darwin >= 23}
 license             MIT
 maintainers         {dports @drkp} openmaintainer
 
@@ -28,9 +28,9 @@ use_zip             yes
 extract.suffix      .nupkg
 extract.mkdir       yes
 
-checksums           rmd160  ace385638efc7124e2855c3842cdcf8bb66eacf1 \
-                    sha256  9428301c8d759958d4ced07dbe15bfbe4101495c0c909e4a95344680584d3a3f \
-                    size    48454612
+checksums           rmd160  52bd969dc3dd98f0863054e8c7d22b36725645ee \
+                    sha256  ceb799dbab4fc821ff80ae5cd5bcc9cb99de41b2343a8356a881c80350191f9f \
+                    size    136673171
 
 depends_build       port:dotnet-sdk-10
 depends_lib         port:dotnet-runtime-10
@@ -94,6 +94,17 @@ helper by running:
 To remove it from your Git configuration before uninstalling, run:
 
     git-credential-manager unconfigure
+
+GCM 3 enables the Microsoft authentication broker by default for Azure Repos.
+On macOS, broker sign-in requires Company Portal and device enrollment. To
+disable broker authentication, run:
+
+    git config --global credential.msauthUseBroker false
+
+GCM 3 also uses OAuth tokens by default for Azure Repos instead of personal
+access tokens. To retain personal access tokens, run:
+
+    git config --global credential.azreposCredentialType pat
 "
 
 # Only match stable release tags (e.g. v2.8.0), not -beta/-rc prereleases.
