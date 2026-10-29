@@ -3,7 +3,7 @@
 PortSystem          1.0
 PortGroup           github 1.0
 
-github.setup        git-ecosystem git-credential-manager 3.0.1 v
+github.setup        git-ecosystem git-credential-manager 3.0.2 v
 
 categories          security devel
 supported_archs     arm64 x86_64
@@ -28,9 +28,9 @@ use_zip             yes
 extract.suffix      .nupkg
 extract.mkdir       yes
 
-checksums           rmd160  52bd969dc3dd98f0863054e8c7d22b36725645ee \
-                    sha256  ceb799dbab4fc821ff80ae5cd5bcc9cb99de41b2343a8356a881c80350191f9f \
-                    size    136673171
+checksums           rmd160  d93b9e1279a3ab74b4b3f9e9941ac04bb1873ebd \
+                    sha256  18010563ceeefc8f2b485659fdb058e81fea5e005aa67fdf5664a54794427389 \
+                    size    136785552
 
 depends_build       port:dotnet-sdk-10
 depends_lib         port:dotnet-runtime-10
